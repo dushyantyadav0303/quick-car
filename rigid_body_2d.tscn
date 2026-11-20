@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ctm7aykqvaqt5"]
+
+[ext_resource type="Texture2D" uid="uid://sdp7y5n8cir6" path="res://Assest/tire.png" id="1_wltir"]
+
+[node name="RigidBody2D" type="RigidBody2D" unique_id=2034086427]
+
+[node name="wheels" type="Sprite2D" parent="." unique_id=719944828]
+position = Vector2(-1, 1)
+scale = Vector2(1.1285714, 1.2142857)
+texture = ExtResource("1_wltir")

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://diicaldgm5ucm"]
+
+[ext_resource type="Texture2D" uid="uid://c4l8mx6d0vwlj" path="res://Assest/car-body.png" id="1_80nbo"]
+
+[node name="player" type="RigidBody2D" unique_id=1544543778 groups=["player"]]
+
+[node name="car" type="Sprite2D" parent="." unique_id=481756004]
+position = Vector2(12, 9.000001)
+scale = Vector2(1.3768578, 1.7548263)
+texture = ExtResource("1_80nbo")
