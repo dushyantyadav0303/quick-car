@@ -1,13 +1,31 @@
-[gd_scene format=3 uid="uid://cv0kqehxcsdn"]
+[gd_scene format=3 uid="uid://371p11h703o3"]
 
 [ext_resource type="Texture2D" uid="uid://c4l8mx6d0vwlj" path="res://Assest/car-body.png" id="1_80nbo"]
+[ext_resource type="PackedScene" uid="uid://lanqaawvcbg4" path="res://scene/rigid_body_2d.tscn" id="2_e2o6t"]
 
 [node name="player" type="RigidBody2D" unique_id=1544543778 groups=["player"]]
+
+[node name="wheelholder" type="PinJoint2D" parent="." unique_id=838220227]
+position = Vector2(-178, 220)
+scale = Vector2(1.4399979, 1.3599994)
+node_a = NodePath("..")
+node_b = NodePath("RigidBody2D")
+
+[node name="RigidBody2D" parent="wheelholder" unique_id=2034086427 instance=ExtResource("2_e2o6t")]
+
+[node name="wheelholder2" type="PinJoint2D" parent="." unique_id=574554837]
+position = Vector2(217, 228.00002)
+scale = Vector2(1.4399979, 1.3599994)
+node_a = NodePath("..")
+node_b = NodePath("RigidBody2D")
+
+[node name="RigidBody2D" parent="wheelholder2" unique_id=1406211637 instance=ExtResource("2_e2o6t")]
+position = Vector2(1.3888907, -1.1205673e-05)
 
 [node name="car" type="Sprite2D" parent="." unique_id=481756004]
 position = Vector2(12, 9.000001)
 scale = Vector2(1.3768578, 1.7548263)
 texture = ExtResource("1_80nbo")
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=882115382]
-polygon = PackedVector2Array(11, 11, 45, 33, 58, -13, 23, -56, -47, -37, -49, 26, -1, 64, 44, 34, 5, 5, -30, -3)
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1114501318]
+polygon = PackedVector2Array(-278, 229, -275, 68, -228, 32, -181, -113, -101, -188, 2, -174, 175, -13, 241, 83, 335, 143, 338, 235)
