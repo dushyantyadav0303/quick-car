@@ -5,14 +5,12 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_g13lv"]
 radius = 61.587337
 
-[node name="wheel" type="RigidBody2D" unique_id=2034086427]
+[node name="wheel" type="RigidBody2D" unique_id=2034086427 groups=["wheel"]]
+gravity_scale = 8.0
 
 [node name="wheels" type="Sprite2D" parent="." unique_id=719944828]
 scale = Vector2(1.1285714, 1.2142857)
 texture = ExtResource("1_jvtuh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=809795992]
-shape = SubResource("CircleShape2D_g13lv")
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=636091591]
 shape = SubResource("CircleShape2D_g13lv")

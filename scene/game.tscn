@@ -1,15 +1,19 @@
-[gd_scene format=3 uid="uid://371p11h703o3"]
+[gd_scene format=3 uid="uid://cv0kqehxcsdn"]
 
+[ext_resource type="Script" uid="uid://b2a2tu6ei0ccq" path="res://script/game.gd" id="1_33cqm"]
 [ext_resource type="Texture2D" uid="uid://c4l8mx6d0vwlj" path="res://Assest/car-body.png" id="1_80nbo"]
-[ext_resource type="PackedScene" uid="uid://lanqaawvcbg4" path="res://scene/rigid_body_2d.tscn" id="2_e2o6t"]
+[ext_resource type="PackedScene" uid="uid://lanqaawvcbg4" path="res://scene/wheel.tscn" id="2_e2o6t"]
 
 [node name="player" type="RigidBody2D" unique_id=1544543778 groups=["player"]]
+gravity_scale = 8.0
+script = ExtResource("1_33cqm")
 
 [node name="wheelholder" type="PinJoint2D" parent="." unique_id=838220227]
 position = Vector2(-178, 220)
 scale = Vector2(1.4399979, 1.3599994)
 node_a = NodePath("..")
 node_b = NodePath("RigidBody2D")
+softness = 2.0
 
 [node name="RigidBody2D" parent="wheelholder" unique_id=2034086427 instance=ExtResource("2_e2o6t")]
 
@@ -18,6 +22,7 @@ position = Vector2(217, 228.00002)
 scale = Vector2(1.4399979, 1.3599994)
 node_a = NodePath("..")
 node_b = NodePath("RigidBody2D")
+softness = 2.0
 
 [node name="RigidBody2D" parent="wheelholder2" unique_id=1406211637 instance=ExtResource("2_e2o6t")]
 position = Vector2(1.3888907, -1.1205673e-05)
