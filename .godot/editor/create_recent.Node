@@ -1,3 +1,6 @@
+Label
+TextureRect
+CanvasLayer
 Node
 AudioStreamPlayer
 AnimationPlayer
@@ -10,6 +13,3 @@ SS2D_Shape
 SS2D_Shape_Closed
 SS2D_Shape_Anchor
 Camera2D
-CollisionPolygon2D
-PinJoint2D
-RigidBody2D

@@ -1,2 +1,6 @@
 res://scene/coin.tscn
 res://levels/level_1.tscn
+res://scene/ui.tscn
+res://script/level_1.gd
+res://script/coin.gd
+res://script/ui.gd

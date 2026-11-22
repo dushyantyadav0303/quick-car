@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://cmdmn7bpfrqxr"]
+
+[ext_resource type="Texture2D" uid="uid://b8n01mc2qpf32" path="res://Assest/coin4_16x16.png" id="1_onfsl"]
+[ext_resource type="Script" uid="uid://e8gn05em2qjv" path="res://script/ui.gd" id="1_s2f8l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ijgdr"]
+atlas = ExtResource("1_onfsl")
+region = Rect2(128.56232, 0.5253811, 15.252014, 15.108137)
+
+[sub_resource type="FontVariation" id="FontVariation_sjobi"]
+
+[node name="UI" type="CanvasLayer" unique_id=302428714]
+script = ExtResource("1_s2f8l")
+
+[node name="coin" type="TextureRect" parent="." unique_id=143887699]
+offset_left = 35.0
+offset_top = 37.0
+offset_right = 126.0
+offset_bottom = 133.0
+texture = SubResource("AtlasTexture_ijgdr")
+
+[node name="Label" type="Label" parent="coin" unique_id=1982603486]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 111.0
+offset_top = 8.0
+offset_right = 275.0
+offset_bottom = 89.0
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = SubResource("FontVariation_sjobi")
+theme_override_font_sizes/font_size = 60
+text = "0"
