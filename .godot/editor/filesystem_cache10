@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1795278576
+::res://::1795329456
 icon.svg::CompressedTexture2D::6615356431829036263::1794736362::1794736369::1::::<><><>0<>0<>8b6f4629e42434f52fba0625abeb2352<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1794736279::0::1::::<><><>0<>0<><>::
 ::res://addons/::1795280192
@@ -10,7 +10,7 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1794736396::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1794736396::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1794736396::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1794736396::0::1::::<>RefCounted<><>0<>0<><>::
-::res://addons/rmsmartshape/::1795280194
+::res://addons/rmsmartshape/::1795280195
 asset_library_icon-new.png::CompressedTexture2D::2151770384630910896::1795280193::1795280195::1::::<><><>0<>0<>14e6b032c29995823d8dcd4e4bdb893c<>res://.godot/imported/asset_library_icon-new.png-60877ecd9837f02c48423d4ec08e9284.ctex::
 asset_library_icon.png::CompressedTexture2D::4849512297864961828::1795280193::1795280195::1::::<><><>0<>0<>5f5f53967efb014642da59267e75ae2e<>res://.godot/imported/asset_library_icon.png-57d4f9e357cb3293fe7f718c0ef3633c.ctex::
 collision_gen.gd::GDScript::3995741393679392799::1795280193::0::1::::SS2D_CollisionGen<>RefCounted<><>0<>0<><>::
@@ -41,7 +41,7 @@ action_open_shape.gd::GDScript::8046139320292219792::1795280192::0::1::::SS2D_Ac
 action_set_pivot.gd::GDScript::6667378005619484564::1795280193::0::1::::SS2D_ActionSetPivot<>SS2D_Action<><>0<>0<><>::
 action_split_curve.gd::GDScript::22660186439898252::1795280193::0::1::::SS2D_ActionSplitCurve<>SS2D_ActionAddPoint<><>0<>0<><>::
 action_split_shape.gd::GDScript::6606922311687351849::1795280193::0::1::::SS2D_ActionSplitShape<>SS2D_Action<><>0<>0<><>::
-::res://addons/rmsmartshape/assets/::1795280193
+::res://addons/rmsmartshape/assets/::1795280195
 Anchor.svg::CompressedTexture2D::4297979011371281991::1795280193::1795280195::1::::<><><>0<>0<>99a080cfb99dbd27ca8321f3e7cf1b07<>res://.godot/imported/Anchor.svg-1c23ca67e353b480fc5d8186bb0064b9.ctex::
 CenterView.svg::CompressedTexture2D::4120058092302796968::1795280193::1795280195::1::::<><><>0<>0<>2b1ece6254daf558788fe7263611b385<>res://.godot/imported/CenterView.svg-f5e9c7178a59ab586ba9d8fac61799bc.ctex::
 closed_shape.png::CompressedTexture2D::2353128964106326528::1795280193::1795280195::1::::<><><>0<>0<>79d9c91f7e87252e19c64162762cc4ea<>res://.godot/imported/closed_shape.png-c1d349f5c2caecc40ec65e52f86a8145.ctex::
@@ -76,7 +76,7 @@ Resources.md::TextFile::-1::1795280193::0::1::::<><><>0<>0<><>::
 Shapes.md::TextFile::-1::1795280193::0::1::::<><><>0<>0<><>::
 Toolbar.md::TextFile::-1::1795280193::0::1::::<><><>0<>0<><>::
 VersionHistory.md::TextFile::-1::1795280193::0::1::::<><><>0<>0<><>::
-::res://addons/rmsmartshape/documentation/imgs/::1795280193
+::res://addons/rmsmartshape/documentation/imgs/::1795280195
 AngleExplaination.png::CompressedTexture2D::3005806836857592244::1795280193::1795280195::1::::<><><>0<>0<>f2975372271e5dc54154b075d0cf2636<>res://.godot/imported/AngleExplaination.png-262a95f5c00610d894393d20b4f1f18b.ctex::
 canvas-item-repeat.png::CompressedTexture2D::8893723021997094881::1795280193::1795280195::1::::<><><>0<>0<>347ca4721e77da8fe4b43a47aba3c33d<>res://.godot/imported/canvas-item-repeat.png-7d3ed27418220ef25581cb95499a95a0.ctex::
 EdgeEdit-MaterialOverride.png::CompressedTexture2D::5067460015758828901::1795280193::1795280195::1::::<><><>0<>0<>390ca2803f7828b633cc3ab4e48e426a<>res://.godot/imported/EdgeEdit-MaterialOverride.png-c7a5aea83c0bc6ee259d6cef1594c77f.ctex::
@@ -110,7 +110,7 @@ Toolbar-PointEdit.png::CompressedTexture2D::607460135679375989::1795280193::1795
 ::res://addons/rmsmartshape/editors/::1795280193
 action_property_inspector_plugin.gd::GDScript::4228944415973448583::1795280193::0::1::::<>EditorInspectorPlugin<><>0<>0<><>::
 normal_range_inspector_plugin.gd::GDScript::1784931288455933203::1795280193::0::1::::<>EditorInspectorPlugin<><>0<>0<><>::
-::res://addons/rmsmartshape/editors/NormalRangeEditor/::1795280193
+::res://addons/rmsmartshape/editors/NormalRangeEditor/::1795280194
 NormalRangeEditor.gd::GDScript::1254145016472532793::1795280193::0::1::::SS2D_NormalRangeEditor<>VBoxContainer<><>0<>1<><>::
 NormalRangeEditor.tscn::PackedScene::5248967896876913263::1795280193::0::1::::<><><>0<>0<><>::uid://dajqljvjm2d2q::::res://addons/rmsmartshape/editors/NormalRangeEditor/progress_texture.png<>uid://r4rt5qimdlyf::::res://addons/rmsmartshape/editors/NormalRangeEditor/NormalRangeEditor.gd<>uid://dgd4sbhsw1no3::::res://addons/rmsmartshape/editors/NormalRangeEditor/over_texture.png<>uid://cax163h05b60j::::res://addons/rmsmartshape/editors/NormalRangeEditor/under_texture.png
 NormalRangeEditorProperty.gd::GDScript::2176100625550667611::1795280193::0::1::::SS2D_NormalRangeEditorProperty<>EditorProperty<><>0<>0<><>::
@@ -118,13 +118,13 @@ over_texture.png::CompressedTexture2D::7588381247435447900::1795280193::17952801
 progress_texture.png::CompressedTexture2D::7178833072060122922::1795280193::1795280194::1::::<><><>0<>0<>9ae51017c9576bb8a0dc9a4c8b862fcb<>res://.godot/imported/progress_texture.png-5c3ce00c522dd3c8b7a6f676bd7a3382.ctex::
 under_texture.png::CompressedTexture2D::4821957539796043423::1795280193::1795280194::1::::<><><>0<>0<>a25eb9fefe7273c0535e1a38b8088fae<>res://.godot/imported/under_texture.png-87a243e17179ba2b162ef41ea65a8e51.ctex::
 ::res://addons/rmsmartshape/examples/::1795280193
-collisions.tscn::PackedScene::4212835744329476512::1795280193::0::1::::<><><>0<>0<><>::uid://dhdc4b8yddyej::::res://addons/rmsmartshape/shapes/shape.gd<>uid://bwcf4pjgprn0k::::res://addons/rmsmartshape/shapes/point.gd<>uid://bo5f7qe27jfje::::res://addons/rmsmartshape/shapes/point_array.gd<>uid://llobjh5hvry::::res://addons/rmsmartshape/shapes/mesh.gd<>uid://mc8hrt0xxmjg::::res://addons/rmsmartshape/shapes/mesh_cache.gd<>uid://8l501jrnaqt8::::res://icon.png<>uid://0lhxan4cqrc1::::res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://nc5bfedvnpgm::::res://addons/rmsmartshape/materials/shape_material.gd<>uid://d0xjijisx1woh::::res://addons/rmsmartshape/materials/edge_material.gd<>uid://d218yx0d1ilsn::::res://addons/rmsmartshape/normal_range.gd
+collisions.tscn::PackedScene::4212835744329476512::1795280193::0::1::::<><>res://addons/rmsmartshape/assets/closed_shape.png<>0<>0<><>::uid://dhdc4b8yddyej::::res://addons/rmsmartshape/shapes/shape.gd<>uid://bwcf4pjgprn0k::::res://addons/rmsmartshape/shapes/point.gd<>uid://bo5f7qe27jfje::::res://addons/rmsmartshape/shapes/point_array.gd<>uid://llobjh5hvry::::res://addons/rmsmartshape/shapes/mesh.gd<>uid://mc8hrt0xxmjg::::res://addons/rmsmartshape/shapes/mesh_cache.gd<>uid://8l501jrnaqt8::::res://icon.png<>uid://0lhxan4cqrc1::::res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://nc5bfedvnpgm::::res://addons/rmsmartshape/materials/shape_material.gd<>uid://d0xjijisx1woh::::res://addons/rmsmartshape/materials/edge_material.gd<>uid://d218yx0d1ilsn::::res://addons/rmsmartshape/normal_range.gd
 ::res://addons/rmsmartshape/examples/edge_shader/::1795280193
 edge_shader.gdshader::Shader::2064590178287784453::1795280193::0::1::::<><><>0<>0<><>::
 material_edge_shader.tres::ShaderMaterial::8220527606724058434::1795280193::0::1::::<><><>0<>0<><>::uid://4odq7m21wgjl::::res://addons/rmsmartshape/examples/edge_shader/edge_shader.gdshader
 ::res://addons/rmsmartshape/examples/sharp_corner_tapering/::1795280194
-sharp_corner_tapering.tscn::PackedScene::5612566905281138093::1795280194::0::1::::<><><>0<>0<><>::uid://dhdc4b8yddyej::::res://addons/rmsmartshape/shapes/shape.gd<>uid://bwcf4pjgprn0k::::res://addons/rmsmartshape/shapes/point.gd<>uid://llobjh5hvry::::res://addons/rmsmartshape/shapes/mesh.gd<>uid://bo5f7qe27jfje::::res://addons/rmsmartshape/shapes/point_array.gd<>uid://bj658oli0klj3::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_fill.png<>uid://jc3g5qsmnpdd::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_taper_corner_left.png<>uid://nc5bfedvnpgm::::res://addons/rmsmartshape/materials/shape_material.gd<>uid://cdnfaf3bslk38::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_taper_corner_right.png<>uid://c8q2nrxnbopbb::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/mat_edge_metal.tres<>uid://d218yx0d1ilsn::::res://addons/rmsmartshape/normal_range.gd<>uid://d0xjijisx1woh::::res://addons/rmsmartshape/materials/edge_material.gd<>uid://0lhxan4cqrc1::::res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://mc8hrt0xxmjg::::res://addons/rmsmartshape/shapes/mesh_cache.gd<>uid://b3aqa3bj1osvp::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_edge.png<>uid://bobwi3r6aiiqg::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_corner_inner.png<>uid://bc34cuc50as8f::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_corner_outer.png
-::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/::1795280194
+sharp_corner_tapering.tscn::PackedScene::5612566905281138093::1795280194::0::1::::<><>res://addons/rmsmartshape/assets/closed_shape.png<>0<>0<><>::uid://dhdc4b8yddyej::::res://addons/rmsmartshape/shapes/shape.gd<>uid://bwcf4pjgprn0k::::res://addons/rmsmartshape/shapes/point.gd<>uid://llobjh5hvry::::res://addons/rmsmartshape/shapes/mesh.gd<>uid://bo5f7qe27jfje::::res://addons/rmsmartshape/shapes/point_array.gd<>uid://bj658oli0klj3::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_fill.png<>uid://jc3g5qsmnpdd::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_taper_corner_left.png<>uid://nc5bfedvnpgm::::res://addons/rmsmartshape/materials/shape_material.gd<>uid://cdnfaf3bslk38::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_taper_corner_right.png<>uid://c8q2nrxnbopbb::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/mat_edge_metal.tres<>uid://d218yx0d1ilsn::::res://addons/rmsmartshape/normal_range.gd<>uid://d0xjijisx1woh::::res://addons/rmsmartshape/materials/edge_material.gd<>uid://0lhxan4cqrc1::::res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://mc8hrt0xxmjg::::res://addons/rmsmartshape/shapes/mesh_cache.gd<>uid://b3aqa3bj1osvp::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_edge.png<>uid://bobwi3r6aiiqg::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_corner_inner.png<>uid://bc34cuc50as8f::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_corner_outer.png
+::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/::1795280195
 mat_edge_metal.tres::Resource/SS2D_Material_Edge::7123766754651703871::1795280193::0::1::::<><><>0<>0<><>::uid://d0xjijisx1woh::::res://addons/rmsmartshape/materials/edge_material.gd<>uid://b3aqa3bj1osvp::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_edge.png<>uid://bobwi3r6aiiqg::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_corner_inner.png<>uid://bc34cuc50as8f::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_corner_outer.png<>uid://jc3g5qsmnpdd::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_taper_corner_left.png<>uid://cdnfaf3bslk38::::res://addons/rmsmartshape/examples/sharp_corner_tapering/assets/tex_metal_taper_corner_right.png
 tex_metal_corner_inner.png::CompressedTexture2D::3372480430896017062::1795280193::1795280194::1::::<><><>0<>0<>dd2057e22f22b01d5ea2c88c9a0ca7c2<>res://.godot/imported/tex_metal_corner_inner.png-cb79c290bddaa53f7796dac7a1a82705.ctex::
 tex_metal_corner_outer.png::CompressedTexture2D::2586366367413981567::1795280193::1795280194::1::::<><><>0<>0<>c4c35800f4aa739b63eef0bf4f61726c<>res://.godot/imported/tex_metal_corner_outer.png-875b77a2b4c70883ce130c2c0edf2bc3.ctex::
@@ -154,25 +154,30 @@ mesh_cache.gd::GDScript::848411963898911600::1795280194::0::1::::SS2D_MeshCache<
 point.gd::GDScript::3935060174271840904::1795280194::0::1::::SS2D_Point<>Resource<><>0<>1<><>::
 point_array.gd::GDScript::3431357405438835698::1795280194::0::1::::SS2D_Point_Array<>Resource<><>0<>1<><>::
 quad.gd::GDScript::490629576136135773::1795280194::0::1::::SS2D_Quad<>RefCounted<><>0<>1<><>::
-shape.gd::GDScript::7656950416412984953::1795280194::0::1::::SS2D_Shape<>Node2D<>res://addons/rmsmartshape/assets/closed_shape.png<>0<>1<><>::
-shape_anchor.gd::GDScript::5950286973456441137::1795280194::0::1::::SS2D_Shape_Anchor<>Node2D<>res://addons/rmsmartshape/assets/Anchor.svg<>0<>1<><>::
-shape_closed.gd::GDScript::6970773578356395946::1795280194::0::1::::SS2D_Shape_Closed<>SS2D_Shape<>res://addons/rmsmartshape/assets/closed_shape.png<>0<>1<><>::
-shape_open.gd::GDScript::1658298886214954802::1795280194::0::1::::SS2D_Shape_Open<>SS2D_Shape<>res://addons/rmsmartshape/assets/open_shape.png<>0<>1<><>::
+shape.gd::GDScript::7656950416412984953::1795280194::0::1::::SS2D_Shape<>Node2D<><>0<>1<><>::
+shape_anchor.gd::GDScript::5950286973456441137::1795280194::0::1::::SS2D_Shape_Anchor<>Node2D<><>0<>1<><>::
+shape_closed.gd::GDScript::6970773578356395946::1795280194::0::1::::SS2D_Shape_Closed<>SS2D_Shape<><>0<>1<><>::
+shape_open.gd::GDScript::1658298886214954802::1795280194::0::1::::SS2D_Shape_Open<>SS2D_Shape<><>0<>1<><>::
 ::res://addons/rmsmartshape/tools/::1795280194
 collision_tool.gd::GDScript::2407771562857444705::1795280194::0::1::::SS2D_CollisionEditorTool<>SS2D_EditorTool<><>0<>0<><>::
 editor_tool.gd::GDScript::3749886262550850869::1795280194::0::1::::SS2D_EditorTool<>RefCounted<><>0<>0<><>::
-::res://Assest/::1794739255
+::res://Assest/::1795333266
 car-body.png::CompressedTexture2D::6833052334568506927::1794739245::1794739255::1::::<><><>0<>0<>829360bf56567f6d11915614415e30e5<>res://.godot/imported/car-body.png-9706c705793d042f338a2ec19fef133a.ctex::
 car-full.png::CompressedTexture2D::8419459961178024903::1794739178::1794739195::1::::<><><>0<>0<>313e5fba7c68c98ff5c87216236d506a<>res://.godot/imported/car-full.png-818847181e0027ee3e25201abd982488.ctex::
 car-model.png::CompressedTexture2D::5587841342715474228::1794739178::1794739195::1::::<><><>0<>0<>952ea6720d9b7b3685e8f485861c27b7<>res://.godot/imported/car-model.png-90ff9626bbe09d5f0ac8799edaeaa66a.ctex::
 car-wheel.png::CompressedTexture2D::5010932776333379121::1794739178::1794739195::1::::<><><>0<>0<>afc8b361827f5d202d5eed38a3f1b3aa<>res://.godot/imported/car-wheel.png-b5f0fd225daa97e54c8fd0929d6a6747.ctex::
 car.png::CompressedTexture2D::6329330258134346415::1794739242::1794739255::1::::<><><>0<>0<>a1af88ae48d790b1ad73602a29ecee9b<>res://.godot/imported/car.png-c18e46c7c8d51763607e20b8e188e239.ctex::
 cartoon-car.png::CompressedTexture2D::7124102397549252925::1794739242::1794739255::1::::<><><>0<>0<>b29cb8f8522e0ce24c1f46e9ba33a4cb<>res://.godot/imported/cartoon-car.png-bfb15ed431cbb6272fb02774cca963b0.ctex::
+MomsGeneraldecorfree.png::CompressedTexture2D::7648344881534828234::1795282973::1795283033::1::::<><><>0<>0<>19a7842272172e7cff54ace29f6608cb<>res://.godot/imported/MomsGeneraldecorfree.png-4f6f9a982555d7a69967b0c5f9fab32c.ctex::
+Terrain (16x16).png::CompressedTexture2D::4449249284308546851::1795333262::1795333266::1::::<><><>0<>0<>0da751d40493f5e5aed1033de24cfd23<>res://.godot/imported/Terrain (16x16).png-80e101edfce0a741f401eb5fee12787e.ctex::
 tire.png::CompressedTexture2D::1270561526582599873::1794739242::1794739255::1::::<><><>0<>0<>8c202982e45558e77ce315639e756ba4<>res://.godot/imported/tire.png-006f8ce7044da6acd8043f0333d7a002.ctex::
-::res://levels/::1795279982
-level_1.tscn::PackedScene::8051391521879134550::1795279982::0::1::::<><><>0<>0<><>::uid://cv0kqehxcsdn::::res://scene/game.tscn
-::res://scene/::1795279238
-game.tscn::PackedScene::185266249771233819::1795204639::0::1::::<><><>0<>0<><>::uid://b2a2tu6ei0ccq::::res://script/game.gd<>uid://c4l8mx6d0vwlj::::res://Assest/car-body.png<>uid://lanqaawvcbg4::::res://scene/wheel.tscn
-wheel.tscn::PackedScene::772895174654520973::1795279238::0::1::::<><><>0<>0<><>::uid://sdp7y5n8cir6::::res://Assest/tire.png
+::res://Assest/terrain/::1795333479
+nature-paltformer-tileset-16x16.png::CompressedTexture2D::3340485689251171545::1795332432::1795332476::1::::<><><>0<>0<>b950bfc0bafe68ce3fd290ec961f2a04<>res://.godot/imported/nature-paltformer-tileset-16x16.png-fe8f7257db4a43e2428821b35347d98d.ctex::
+Terrain (16x16).png::CompressedTexture2D::7348785242497639529::1795333479::1795333486::1::::<><><>0<>0<>ecc5d4c49ae5869fc8ac64c2b242a20a<>res://.godot/imported/Terrain (16x16).png-ff4e1f8f1cdcfcfc4a83d520ecfa6ac4.ctex::
+::res://levels/::1795333432
+level_1.tscn::PackedScene::8051391521879134550::1795333432::0::1::::<><><>0<>0<><>::uid://cv0kqehxcsdn::::res://scene/game.tscn<>uid://c6kxvfqr4ewu1::::res://addons/rmsmartshape/shapes/shape_closed.gd<>uid://bo5f7qe27jfje::::res://addons/rmsmartshape/shapes/point_array.gd<>uid://bwcf4pjgprn0k::::res://addons/rmsmartshape/shapes/point.gd<>uid://llobjh5hvry::::res://addons/rmsmartshape/shapes/mesh.gd<>uid://mc8hrt0xxmjg::::res://addons/rmsmartshape/shapes/mesh_cache.gd<>uid://b4niqro0d0yi2::::res://Assest/Terrain (16x16).png<>uid://0lhxan4cqrc1::::res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://nc5bfedvnpgm::::res://addons/rmsmartshape/materials/shape_material.gd<>uid://d0xjijisx1woh::::res://addons/rmsmartshape/materials/edge_material.gd<>uid://d218yx0d1ilsn::::res://addons/rmsmartshape/normal_range.gd
+::res://scene/::1795285837
+game.tscn::PackedScene::185266249771233819::1795285837::0::1::::<><><>0<>0<><>::uid://b2a2tu6ei0ccq::::res://script/game.gd<>uid://c4l8mx6d0vwlj::::res://Assest/car-body.png<>uid://lanqaawvcbg4::::res://scene/wheel.tscn
+wheel.tscn::PackedScene::772895174654520973::1795284518::0::1::::<><><>0<>0<><>::uid://sdp7y5n8cir6::::res://Assest/tire.png
 ::res://script/::1795279093
 game.gd::GDScript::4283193849358220132::1795279093::0::1::::<>RigidBody2D<><>0<>0<><>::

@@ -16,6 +16,7 @@ node_b = NodePath("RigidBody2D")
 softness = 2.0
 
 [node name="RigidBody2D" parent="wheelholder" unique_id=2034086427 instance=ExtResource("2_e2o6t")]
+position = Vector2(-1.7881393e-06, 2.2058783)
 
 [node name="wheelholder2" type="PinJoint2D" parent="." unique_id=574554837]
 position = Vector2(217, 228.00002)
@@ -25,7 +26,7 @@ node_b = NodePath("RigidBody2D")
 softness = 2.0
 
 [node name="RigidBody2D" parent="wheelholder2" unique_id=1406211637 instance=ExtResource("2_e2o6t")]
-position = Vector2(1.3888907, -1.1205673e-05)
+position = Vector2(0.69444525, 0.73528326)
 
 [node name="car" type="Sprite2D" parent="." unique_id=481756004]
 position = Vector2(12, 9.000001)
