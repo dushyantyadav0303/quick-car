@@ -7,3 +7,4 @@ res://script/ui.gd
 res://scene/fuel.tscn
 res://script/fuel.gd
 res://scene/game.tscn
+res://script/game.gd

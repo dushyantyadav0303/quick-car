@@ -32,5 +32,7 @@ func add_fuel():
 	fuel = min(fuel + 50, 100.0)
 	_update_fuel_gauge()
 	
-	
-	
+# ahhh maths!!!
+func set_speed(ratio: float) -> void:
+	var target = lerp(-28, 105, ratio)
+	$RedGaugeNeedleSprite.rotation_degrees = lerp($RedGaugeNeedleSprite.rotation_degrees, target, 0.05)

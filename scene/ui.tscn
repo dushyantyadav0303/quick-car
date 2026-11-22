@@ -603,7 +603,7 @@ texture = ExtResource("4_ytdjg")
 
 [node name="RedGaugeNeedleSprite" type="Sprite2D" parent="." unique_id=449348644]
 position = Vector2(1138.9999, 911.99994)
-rotation = -0.5009095
+rotation = 1.7715092
 scale = Vector2(0.27877846, 0.31943578)
 texture = ExtResource("5_ajaei")
 
