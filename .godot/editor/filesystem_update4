@@ -1,5 +1,2 @@
+res://scene/coin.tscn
 res://levels/level_1.tscn
-res://scene/game.tscn
-res://coin.tscn
-res://coin.gd
-res://script/level_1.gd

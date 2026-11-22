@@ -97,7 +97,7 @@ Vector2i(0, 4): 15
 }
 _next_key = 16
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_ryfpa"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_betor"]
 _surfaces = [{
 "aabb": AABB(-4689.352, -1361.8276, 0, 9188.721, 3058.0093, 1e-05),
 "attribute_data": PackedByteArray("/////yL+4EIvGb5BIv7gQi8ZvkH/////L37qwq4CwEEvfurCrgLAQf////8vfurCbwpfwC9+6sJvCl/A/////81a28I7tmfBzVrbwju2Z8H/////y8jXwocPgcHLyNfChw+Bwf/////M89PCFT+Mwczz08IVP4zB/////2Hkz8ILqZTBYeTPwguplMH/////FqPLwq2MmcEWo8vCrYyZwf////90OMfCOymawXQ4x8I7KZrB/////witwsL9vZXBCK3Cwv29lcH/////YAm+wjWKi8FgCb7CNYqLwf////8GVrnCSpp1wQZWucJKmnXB/////0RbqcLIbtrARFupwshu2sD/////KzdowiAFrcArN2jCIAWtwP/////tVjLCSgZGwe1WMsJKBkbB/////3n2GcIBrXPBefYZwgGtc8H/////cDYOwtkygsFwNg7C2TKCwf////96rQLC2NeHwXqtAsLY14fB/////6eZ7sGoQorBp5nuwahCisH/////YwvYwW/wiMFjC9jBb/CIwf////+aksHBWF6DwZqSwcFYXoPB/////78Rq8EXE3LBvxGrwRcTcsH/////P2uUwWDeUsE/a5TBYN5Swf////8XA3vB4RgowRcDe8HhGCjB/////x8eMkCaaCi/Hx4yQJpoKL//////KrRaQW5xGsEqtFpBbnEawf////9m55RBRcJLwWbnlEFFwkvB/////xkKv0EaOXPBGQq/QRo5c8H/////Ul7UQalxgMFSXtRBqXGAwf////+GfulBDJ+EwYZ+6UEMn4TB/////z0i/kE7q4XBPSL+QTurhcH/////ggAJQrYcg8GCAAlCthyDwf/////5lhFC/5p1wfmWEUL/mnXB/////3QkGUIG217BdCQZQgbbXsH/////P8olQuifJME/yiVC6J8kwf////9QyWZC151Tv1DJZkLXnVO//////yrYcEI6EVXAKthwQjoRVcD/////7reGQgkt7cDut4ZCCS3twP/////45ZJCXIYgwfjlkkJchiDB//////82mEI8Iy7B/zaYQjwjLsH/////ygadQrmZN8HKBp1CuZk3wf////9tV6FClHo9wW1XoUKUej3B//////sqpUKFVkDB+yqlQoVWQMH/////h4OoQk6+QMGHg6hCTr5Awf////8jY6tCpkI/wSNjq0KmQj/B/////+LLrUJNdDzB4sutQk10PMH/////2r+vQgHkOMHav69CAeQ4wf////8aQbFCfSI1wRpBsUJ9IjXB/////7ZRskJ+wDHBtlGyQn7AMcH/////UCmzQgJeLsFQKbNCAl4uwf////+V3BzBLBMvwJXcHMEsEy/A/////2DJOUKIfBPAYMk5Qoh8E8D/////oPVdQuMQUj+g9V1C4xBSP/////9KoD5CNGgtv0qgPkI0aC2//////0oxgcJalivASjGBwlqWK8D/////IZqiwl92eMAhmqLCX3Z4wP////82wIbCzhvnvzbAhsLOG+e//////xInrT/hVJm+EietP+FUmb7/////qzNWQoW22T+rM1ZChbbZP/////9qQp/C8H4xwGpCn8LwfjHA/////75xRr5Btg29vnFGvkG2Db3/////2tWbwtKr9b/a1ZvC0qv1v//////qwYvCUwCfv+rBi8JTAJ+//////3ofBcA+Uf89eh8FwD5R/z3/////YECYwgAwqr9gQJjCADCqv/////94SpDCo0F7v3hKkMKjQXu//////725Q0L6CyA/vblDQvoLID//////8G2UwtrDgb/wbZTC2sOBv//////7ihDBIrb0v/uKEMEitvS//////+9qRsCZlgE+72pGwJmWAT7/////v68CwZs6oL+/rwLBmzqgv/////8pP0lCaeLBPyk/SUJp4sE//////40658Cifz2/jTrnwKJ/Pb///////VlPQjWO8z/9WU9CNY7zP//////oS8fAS0e5vuhLx8BLR7m+/////1I4psDxys+9UjimwPHKz73/////lqSEwLZxZj2WpITAtnFmPf////9zdd5CHGmdwHN13kIcaZ3A"),
@@ -113,10 +113,10 @@ _surfaces = [{
 [sub_resource type="Resource" id="Resource_ntdhj"]
 script = ExtResource("4_08mmt")
 texture = ExtResource("6_5ot28")
-mesh = SubResource("ArrayMesh_ryfpa")
+mesh = SubResource("ArrayMesh_betor")
 z_index = -10
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_aerfg"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_0fu15"]
 _surfaces = [{
 "aabb": AABB(4447.84, -354.64908, 0, 65.52881, 2033.9396, 1e-05),
 "attribute_data": PackedByteArray("/////wAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAgD8AAAAAAACAP//////fnjhCAACAP9+eOEIAAIA//////9+eOEIAAAAA3544QgAAAAA="),
@@ -132,7 +132,7 @@ _surfaces = [{
 [sub_resource type="Resource" id="Resource_voubc"]
 script = ExtResource("4_08mmt")
 texture = ExtResource("7_aerfg")
-mesh = SubResource("ArrayMesh_aerfg")
+mesh = SubResource("ArrayMesh_0fu15")
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_0x1rk"]
 _surfaces = [{
@@ -170,7 +170,7 @@ script = ExtResource("4_08mmt")
 texture = ExtResource("7_aerfg")
 mesh = SubResource("ArrayMesh_06ecp")
 
-[sub_resource type="Resource" id="Resource_08mmt"]
+[sub_resource type="Resource" id="Resource_e5brb"]
 script = ExtResource("5_5ot28")
 meshes = Array[ExtResource("4_08mmt")]([SubResource("Resource_ntdhj"), SubResource("Resource_voubc"), SubResource("Resource_pnpm1"), SubResource("Resource_ohjdc")])
 
@@ -208,7 +208,7 @@ position = Vector2(7.9999995, 32)
 scale = Vector2(8.775947, 3.56585)
 script = ExtResource("2_l53as")
 _points = SubResource("Resource_3sk1a")
-_mesh_cache = SubResource("Resource_08mmt")
+_mesh_cache = SubResource("Resource_e5brb")
 shape_material = SubResource("Resource_5ot28")
 collision_polygon_node_path = NodePath("../CollisionPolygon2D")
 metadata/_custom_type_script = "uid://dhdc4b8yddyej"
@@ -231,14 +231,52 @@ drag_right_margin = 1.0
 drag_bottom_margin = 1.0
 editor_draw_drag_margin = true
 
-[node name="coin" parent="." unique_id=1193449235 instance=ExtResource("14_betor")]
-position = Vector2(-21345, 0)
+[node name="coin" type="Node" parent="." unique_id=111878080]
 
-[node name="coin2" parent="." unique_id=261225715 instance=ExtResource("14_betor")]
-position = Vector2(-20547, 0)
+[node name="coin2" parent="coin" unique_id=1193449235 instance=ExtResource("14_betor")]
+position = Vector2(-24205.002, 571)
+scale = Vector2(14.480764, 14.654243)
 
-[node name="coin3" parent="." unique_id=525382389 instance=ExtResource("14_betor")]
-position = Vector2(-19841, 0)
+[node name="coin3" parent="coin" unique_id=713117736 instance=ExtResource("14_betor")]
+position = Vector2(-23522, 489.00003)
+scale = Vector2(14.480764, 14.654243)
 
-[node name="coin4" parent="." unique_id=1578967753 instance=ExtResource("14_betor")]
-position = Vector2(-19073, 0)
+[node name="coin4" parent="coin" unique_id=681917684 instance=ExtResource("14_betor")]
+position = Vector2(-22797, 393)
+scale = Vector2(14.480764, 14.654243)
+
+[node name="coin5" parent="coin" unique_id=1728237798 instance=ExtResource("14_betor")]
+position = Vector2(-22156, 332)
+scale = Vector2(14.480764, 14.654243)
+
+[node name="coin6" parent="coin" unique_id=1085693246 instance=ExtResource("14_betor")]
+position = Vector2(-21630, 163)
+scale = Vector2(14.480764, 14.654243)
+
+[node name="coin7" parent="coin" unique_id=697815208 instance=ExtResource("14_betor")]
+position = Vector2(-21110, -77.00003)
+scale = Vector2(14.480764, 14.654243)
+
+[node name="coin8" parent="coin" unique_id=972504937 instance=ExtResource("14_betor")]
+position = Vector2(-20417, -285.00003)
+scale = Vector2(14.480764, 14.654243)
+
+[node name="coin9" parent="coin" unique_id=63004755 instance=ExtResource("14_betor")]
+position = Vector2(-19735, -472)
+scale = Vector2(14.480764, 14.654243)
+
+[node name="coin10" parent="coin" unique_id=1386695980 instance=ExtResource("14_betor")]
+position = Vector2(-19106, -689.0001)
+scale = Vector2(14.480764, 14.654243)
+
+[node name="coin11" parent="coin" unique_id=1894550955 instance=ExtResource("14_betor")]
+position = Vector2(-18491, -889.0001)
+scale = Vector2(14.480764, 14.654243)
+
+[node name="coin12" parent="coin" unique_id=50336904 instance=ExtResource("14_betor")]
+position = Vector2(-17956.002, -1058.0001)
+scale = Vector2(14.480764, 14.654243)
+
+[node name="coin" parent="coin" unique_id=1672550465 instance=ExtResource("14_betor")]
+position = Vector2(-25010, 580.00006)
+scale = Vector2(14.480764, 14.654243)
