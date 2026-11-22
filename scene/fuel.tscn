@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://blbow8ri8imtl"]
+
+[ext_resource type="Script" uid="uid://c6ro5106u42a" path="res://script/fuel.gd" id="1_5su1s"]
+[ext_resource type="Texture2D" uid="uid://cimaxqwls1vp3" path="res://Assest/fuel-canister.png" id="2_5su1s"]
+[ext_resource type="AudioStream" uid="uid://bml0jvpir7cnc" path="res://sound/creatorshome-sharp-pop-328170.mp3" id="3_5su1s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d0vl4"]
+size = Vector2(34, 45)
+
+[sub_resource type="Animation" id="Animation_leebs"]
+length = 0.93333334
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("fuel:position:y")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(0, -0.0005, 0, 0.0005, 0, -60, -0.15555556, 0, 0, 0),
+"times": PackedFloat32Array(0.01, 0.6)
+}
+tracks/1/type = "audio"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("energy fill")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"clips": [],
+"times": PackedFloat32Array()
+}
+tracks/1/use_blend = true
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("fuel:modulate:a")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(1, -0.25, 0, 0.25, 0, 0, -0.099999994, 0.16666667, 0, 0),
+"times": PackedFloat32Array(0.1, 0.6)
+}
+
+[sub_resource type="Animation" id="Animation_ya73g"]
+resource_name = "pickup"
+length = 0.6666667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("energy fill:playing")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_leebs"]
+_data = {
+&"RESET": SubResource("Animation_leebs"),
+&"pickup": SubResource("Animation_ya73g")
+}
+
+[node name="fuel" type="Area2D" unique_id=1193449235]
+script = ExtResource("1_5su1s")
+
+[node name="fuel" type="Sprite2D" parent="." unique_id=544219303]
+scale = Vector2(0.828125, 0.828125)
+texture = ExtResource("2_5su1s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=429901695]
+visible = false
+shape = SubResource("RectangleShape2D_d0vl4")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1869391803]
+reset_on_save = false
+libraries/ = SubResource("AnimationLibrary_leebs")
+
+[node name="energy fill" type="AudioStreamPlayer" parent="." unique_id=1804657379]
+stream = ExtResource("3_5su1s")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

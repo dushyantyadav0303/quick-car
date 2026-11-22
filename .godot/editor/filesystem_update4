@@ -4,3 +4,6 @@ res://scene/ui.tscn
 res://script/level_1.gd
 res://script/coin.gd
 res://script/ui.gd
+res://scene/fuel.tscn
+res://script/fuel.gd
+res://scene/game.tscn
