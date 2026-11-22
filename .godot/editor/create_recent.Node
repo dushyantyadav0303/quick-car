@@ -1,11 +1,11 @@
+AnimatedSprite2D
+TextureRect
 Sprite2D
 Label
-TextureRect
 CanvasLayer
 Node
 AudioStreamPlayer
 AnimationPlayer
-AnimatedSprite2D
 CollisionShape2D
 Area2D
 StaticBody2D

@@ -161,7 +161,7 @@ shape_open.gd::GDScript::1658298886214954802::1795280194::0::1::::SS2D_Shape_Ope
 ::res://addons/rmsmartshape/tools/::1795280194
 collision_tool.gd::GDScript::2407771562857444705::1795280194::0::1::::SS2D_CollisionEditorTool<>SS2D_EditorTool<><>0<>0<><>::
 editor_tool.gd::GDScript::3749886262550850869::1795280194::0::1::::SS2D_EditorTool<>RefCounted<><>0<>0<><>::
-::res://Assest/::1795370009
+::res://Assest/::1795374827
 car-body.png::CompressedTexture2D::6833052334568506927::1794739245::1794739255::1::::<><><>0<>0<>829360bf56567f6d11915614415e30e5<>res://.godot/imported/car-body.png-9706c705793d042f338a2ec19fef133a.ctex::
 car-full.png::CompressedTexture2D::8419459961178024903::1794739178::1794739195::1::::<><><>0<>0<>313e5fba7c68c98ff5c87216236d506a<>res://.godot/imported/car-full.png-818847181e0027ee3e25201abd982488.ctex::
 car-model.png::CompressedTexture2D::5587841342715474228::1794739178::1794739195::1::::<><><>0<>0<>952ea6720d9b7b3685e8f485861c27b7<>res://.godot/imported/car-model.png-90ff9626bbe09d5f0ac8799edaeaa66a.ctex::
@@ -173,22 +173,32 @@ fuel-canister.png::CompressedTexture2D::5359166597683180990::1795369993::1795370
 MomsGeneraldecorfree.png::CompressedTexture2D::7648344881534828234::1795282973::1795283033::1::::<><><>0<>0<>19a7842272172e7cff54ace29f6608cb<>res://.godot/imported/MomsGeneraldecorfree.png-4f6f9a982555d7a69967b0c5f9fab32c.ctex::
 Terrain (16x16).png::CompressedTexture2D::4449249284308546851::1795333262::1795333266::1::::<><><>0<>0<>0da751d40493f5e5aed1033de24cfd23<>res://.godot/imported/Terrain (16x16).png-80e101edfce0a741f401eb5fee12787e.ctex::
 tire.png::CompressedTexture2D::1270561526582599873::1794739242::1794739255::1::::<><><>0<>0<>8c202982e45558e77ce315639e756ba4<>res://.godot/imported/tire.png-006f8ce7044da6acd8043f0333d7a002.ctex::
+::res://Assest/fuel/::1795374827
+Fuel gauge indicator center.PNG::CompressedTexture2D::4843224271498115444::1795372899::1795372907::1::::<><><>0<>0<>8ebed7c7c85d858cd140a529daa599b3<>res://.godot/imported/Fuel gauge indicator center.PNG-7af3fdeaede6a180d6be9ff0a58ca327.ctex::
+Fuel gauge indicator sprite sheet.PNG::CompressedTexture2D::6823886370916934562::1795372899::1795372907::1::::<><><>0<>0<>1954828f70107f7adc71ec1284b6a623<>res://.godot/imported/Fuel gauge indicator sprite sheet.PNG-8ccaac50177d1bcc36edfc5db2695228.ctex::
+fuel gauge structure no indicator.PNG::CompressedTexture2D::6728287340529923185::1795372900::1795372907::1::::<><><>0<>0<>1cd21c9445d7315b5c015223777ceb44<>res://.godot/imported/fuel gauge structure no indicator.PNG-ee8b3403c2b01950d9e418eaa5438090.ctex::
+Fuel gauge structure sprite sheet.PNG::CompressedTexture2D::4582003802976960708::1795372900::1795372907::1::::<><><>0<>0<>10de6043a41c6b352f1e6e3ff8891f54<>res://.godot/imported/Fuel gauge structure sprite sheet.PNG-575e6e9f3f7a294e5dd3ebd71a532d4d.ctex::
+Pixel-Art Speedometer Gauge.png::CompressedTexture2D::8636723684666149139::1795374333::1795374360::1::::<><><>0<>0<>0243605768d9497dd942ad63849479ac<>res://.godot/imported/Pixel-Art Speedometer Gauge.png-2c434d50efe3074acee4c35d859a76aa.ctex::
+Red Gauge Needle Sprite.png::CompressedTexture2D::1978041574956124155::1795374809::1795374830::1::::<><><>0<>0<>e112bb4b90c7366ba55297e9f4c9d6ad<>res://.godot/imported/Red Gauge Needle Sprite.png-201f8b214741678b1f1ad1bbfcc6c581.ctex::
+red needle.png::CompressedTexture2D::2421758885239643208::1795374432::1795374466::1::::<><><>0<>0<>f16a6f15de871beff73123ec0120204f<>res://.godot/imported/red needle.png-6210e3dc936e12727f325731fe32d97c.ctex::
+Speedometer .png::CompressedTexture2D::4459792531769584116::1795374461::1795374466::1::::<><><>0<>0<>eef877723c72388febb8756666dc1669<>res://.godot/imported/Speedometer .png-1f6d6741f660ece5216344880fe33550.ctex::
 ::res://Assest/terrain/::1795333486
 nature-paltformer-tileset-16x16.png::CompressedTexture2D::3340485689251171545::1795332432::1795332476::1::::<><><>0<>0<>b950bfc0bafe68ce3fd290ec961f2a04<>res://.godot/imported/nature-paltformer-tileset-16x16.png-fe8f7257db4a43e2428821b35347d98d.ctex::
 Terrain (16x16).png::CompressedTexture2D::7348785242497639529::1795333479::1795333486::1::::<><><>0<>0<>ecc5d4c49ae5869fc8ac64c2b242a20a<>res://.godot/imported/Terrain (16x16).png-ff4e1f8f1cdcfcfc4a83d520ecfa6ac4.ctex::
-::res://levels/::1795368253
-level_1.tscn::PackedScene::8051391521879134550::1795368253::0::1::::<><><>0<>0<><>::uid://co7cq35hukxpq::::res://script/level_1.gd<>uid://cv0kqehxcsdn::::res://scene/game.tscn<>uid://dhdc4b8yddyej::::res://addons/rmsmartshape/shapes/shape.gd<>uid://bo5f7qe27jfje::::res://addons/rmsmartshape/shapes/point_array.gd<>uid://bwcf4pjgprn0k::::res://addons/rmsmartshape/shapes/point.gd<>uid://llobjh5hvry::::res://addons/rmsmartshape/shapes/mesh.gd<>uid://mc8hrt0xxmjg::::res://addons/rmsmartshape/shapes/mesh_cache.gd<>uid://b4niqro0d0yi2::::res://Assest/Terrain (16x16).png<>uid://0lhxan4cqrc1::::res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://dcx2oixdtnugv::::res://Assest/terrain/Terrain (16x16).png<>uid://nc5bfedvnpgm::::res://addons/rmsmartshape/materials/shape_material.gd<>uid://d0xjijisx1woh::::res://addons/rmsmartshape/materials/edge_material.gd<>uid://d218yx0d1ilsn::::res://addons/rmsmartshape/normal_range.gd<>uid://bfe1g3jvftr3o::::res://scene/coin.tscn<>uid://cmdmn7bpfrqxr::::res://scene/ui.tscn
-::res://scene/::1795370862
+::res://levels/::1795372908
+level_1.tscn::PackedScene::8051391521879134550::1795372908::0::1::::<><><>0<>0<><>::uid://co7cq35hukxpq::::res://script/level_1.gd<>uid://cv0kqehxcsdn::::res://scene/game.tscn<>uid://dhdc4b8yddyej::::res://addons/rmsmartshape/shapes/shape.gd<>uid://bo5f7qe27jfje::::res://addons/rmsmartshape/shapes/point_array.gd<>uid://bwcf4pjgprn0k::::res://addons/rmsmartshape/shapes/point.gd<>uid://llobjh5hvry::::res://addons/rmsmartshape/shapes/mesh.gd<>uid://mc8hrt0xxmjg::::res://addons/rmsmartshape/shapes/mesh_cache.gd<>uid://b4niqro0d0yi2::::res://Assest/Terrain (16x16).png<>uid://0lhxan4cqrc1::::res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://dcx2oixdtnugv::::res://Assest/terrain/Terrain (16x16).png<>uid://nc5bfedvnpgm::::res://addons/rmsmartshape/materials/shape_material.gd<>uid://d0xjijisx1woh::::res://addons/rmsmartshape/materials/edge_material.gd<>uid://d218yx0d1ilsn::::res://addons/rmsmartshape/normal_range.gd<>uid://bfe1g3jvftr3o::::res://scene/coin.tscn<>uid://cmdmn7bpfrqxr::::res://scene/ui.tscn<>uid://blbow8ri8imtl::::res://scene/fuel.tscn
+::res://scene/::1795374782
 coin.tscn::PackedScene::2747213254993496274::1795368317::0::1::::<><><>0<>0<><>::uid://ck2jda66r3ihn::::res://script/coin.gd<>uid://cev5o4ysyqdhx::::res://sound/driken5482-retro-coin-4-236671.mp3<>uid://b8n01mc2qpf32::::res://Assest/coin4_16x16.png
-game.tscn::PackedScene::185266249771233819::1795355927::0::1::::<><><>0<>0<><>::uid://b2a2tu6ei0ccq::::res://script/game.gd<>uid://c4l8mx6d0vwlj::::res://Assest/car-body.png<>uid://lanqaawvcbg4::::res://scene/wheel.tscn
-fuel.tscn::PackedScene::3161453426770296529::1795370862::0::1::::<><><>0<>0<><>::uid://ck2jda66r3ihn::::res://script/coin.gd<>uid://cimaxqwls1vp3::::res://Assest/fuel-canister.png<>uid://cev5o4ysyqdhx::::res://sound/driken5482-retro-coin-4-236671.mp3
-ui.tscn::PackedScene::5622054126519640791::1795369062::0::1::::<><><>0<>0<><>::uid://b8n01mc2qpf32::::res://Assest/coin4_16x16.png<>uid://e8gn05em2qjv::::res://script/ui.gd
+game.tscn::PackedScene::185266249771233819::1795372490::0::1::::<><><>0<>0<><>::uid://b2a2tu6ei0ccq::::res://script/game.gd<>uid://c4l8mx6d0vwlj::::res://Assest/car-body.png<>uid://lanqaawvcbg4::::res://scene/wheel.tscn
+fuel.tscn::PackedScene::3161453426770296529::1795373760::0::1::::<><><>0<>0<><>::uid://c6ro5106u42a::::res://script/fuel.gd<>uid://cimaxqwls1vp3::::res://Assest/fuel-canister.png<>uid://bml0jvpir7cnc::::res://sound/creatorshome-sharp-pop-328170.mp3
+ui.tscn::PackedScene::5622054126519640791::1795374782::0::1::::<><><>0<>0<><>::uid://b8n01mc2qpf32::::res://Assest/coin4_16x16.png<>uid://e8gn05em2qjv::::res://script/ui.gd<>uid://b6js6y1ljirro::::res://Assest/fuel/Fuel gauge structure sprite sheet.PNG<>uid://b4smep6d2b5mm::::res://Assest/fuel/Speedometer .png<>uid://barearmhc338w::::res://Assest/fuel/red needle.png
 wheel.tscn::PackedScene::772895174654520973::1795284518::0::1::::<><><>0<>0<><>::uid://sdp7y5n8cir6::::res://Assest/tire.png
-::res://script/::1795368947
+::res://script/::1795373965
 coin.gd::GDScript::5531019862764015531::1795368947::0::1::::<>Area2D<><>0<>0<><>::
 game.gd::GDScript::4283193849358220132::1795279093::0::1::::<>RigidBody2D<><>0<>0<><>::
 level_1.gd::GDScript::5821696790479710938::1795368253::0::1::::<>Node2D<><>0<>0<><>::
-ui.gd::GDScript::349268717340208415::1795368927::0::1::::<>CanvasLayer<><>0<>0<><>::
-::res://sound/::1795371609
+fuel.gd::GDScript::205432204687167930::1795373760::0::1::::<>Area2D<><>0<>0<><>::
+ui.gd::GDScript::349268717340208415::1795373965::0::1::::<>CanvasLayer<><>0<>0<><>::
+::res://sound/::1795371613
 creatorshome-sharp-pop-328170.mp3::AudioStreamMP3::3252930086158333716::1795371592::1795371613::1::::<><><>0<>0<>fc8bdeec64ad83198f87edda393b34cf<>res://.godot/imported/creatorshome-sharp-pop-328170.mp3-249fa8aadaa6eaad171c935944f86bea.mp3str::
 driken5482-retro-coin-4-236671.mp3::AudioStreamMP3::5098796746774251857::1795350428::1795350495::1::::<><><>0<>0<>ddcc85d2e840df8c9d2f3c49cf11f6b3<>res://.godot/imported/driken5482-retro-coin-4-236671.mp3-8435bf7187055fc24447b8641ac462c5.mp3str::
