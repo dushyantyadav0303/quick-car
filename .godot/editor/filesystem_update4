@@ -1,10 +1,7 @@
-res://scene/coin.tscn
-res://levels/level_1.tscn
-res://scene/ui.tscn
-res://script/level_1.gd
-res://script/coin.gd
-res://script/ui.gd
 res://scene/fuel.tscn
-res://script/fuel.gd
 res://scene/game.tscn
+res://script/ui.gd
+res://scene/wheel.tscn
+res://script/fuel.gd
 res://script/game.gd
+res://scene/ui.tscn

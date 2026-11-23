@@ -4,8 +4,18 @@ var wheels = []
 var speed = 60000
 var max_speed = 50
 
+
+func stop():
+	speed = 0
+	
+	
 func _ready():
 	wheels = get_tree().get_nodes_in_group("wheel")
+	add_to_group("game")
+	
+	
+	
+	
 func _physics_process(delta):
 	if Input.is_action_pressed("ui_right"):
 		for wheel in wheels:

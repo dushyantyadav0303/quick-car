@@ -11,7 +11,7 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	if fuel > 0:
-		fuel = max(fuel - 2 * delta, 0.0)
+		fuel = max(fuel - 20 * delta, 0.0)
 		_update_fuel_gauge()
 		if fuel == 0:
 			out_of_fuel()
@@ -21,7 +21,8 @@ func _update_fuel_gauge() -> void:
 
 
 func out_of_fuel() -> void:
-	print("Out of fuel!") 
+	get_tree().call_group("game", "stop")
+	pass
 	
 	
 func add_coin():
