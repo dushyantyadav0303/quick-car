@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 var wheels = []
-var speed = 60000
+var speed = 90000
 var max_speed = 50
 
 

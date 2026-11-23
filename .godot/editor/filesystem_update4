@@ -1,7 +1,4 @@
-res://scene/fuel.tscn
-res://scene/game.tscn
-res://script/ui.gd
 res://scene/wheel.tscn
-res://script/fuel.gd
+res://scene/game.tscn
+res://levels/level_1.tscn
 res://script/game.gd
-res://scene/ui.tscn

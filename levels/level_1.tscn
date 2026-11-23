@@ -223,9 +223,9 @@ polygon = PackedVector2Array(39049.516, -1207.6082, 39494.22, 6020.098, -41145.5
 position = Vector2(-27165, -1616)
 
 [node name="Camera2D" type="Camera2D" parent="player" unique_id=422865507]
-position = Vector2(-320, -14)
+position = Vector2(110, 36)
 offset = Vector2(0.7, 0)
-zoom = Vector2(0.4, 0.4)
+zoom = Vector2(0.6, 0.6)
 drag_horizontal_offset = 0.48
 drag_left_margin = 1.0
 drag_top_margin = 1.0

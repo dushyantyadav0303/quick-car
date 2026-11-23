@@ -1,37 +1,41 @@
 [gd_scene format=3 uid="uid://cv0kqehxcsdn"]
 
 [ext_resource type="Script" uid="uid://b2a2tu6ei0ccq" path="res://script/game.gd" id="1_33cqm"]
-[ext_resource type="Texture2D" uid="uid://c4l8mx6d0vwlj" path="res://Assest/car-body.png" id="1_80nbo"]
 [ext_resource type="PackedScene" uid="uid://lanqaawvcbg4" path="res://scene/wheel.tscn" id="2_e2o6t"]
+[ext_resource type="Texture2D" uid="uid://jhkh3km43jjv" path="res://Assest/car/sports car.png" id="3_33cqm"]
 
 [node name="player" type="RigidBody2D" unique_id=1544543778 groups=["player"]]
 gravity_scale = 8.0
 script = ExtResource("1_33cqm")
 
 [node name="wheelholder" type="PinJoint2D" parent="." unique_id=838220227]
-position = Vector2(-178, 220)
+position = Vector2(-190.00002, 113.00001)
 scale = Vector2(1.4399979, 1.3599994)
 node_a = NodePath("..")
 node_b = NodePath("RigidBody2D")
 softness = 2.0
 
 [node name="RigidBody2D" parent="wheelholder" unique_id=2034086427 instance=ExtResource("2_e2o6t")]
-position = Vector2(-1.7881393e-06, 2.2058783)
+position = Vector2(1.4305115e-05, -1.3887882e-05)
+scale = Vector2(0.7306431, 0.735125)
 
 [node name="wheelholder2" type="PinJoint2D" parent="." unique_id=574554837]
-position = Vector2(217, 228.00002)
-scale = Vector2(1.4399979, 1.3599994)
+position = Vector2(327, 116.00001)
+scale = Vector2(1.091376, 1.0503073)
 node_a = NodePath("..")
 node_b = NodePath("RigidBody2D")
 softness = 2.0
 
 [node name="RigidBody2D" parent="wheelholder2" unique_id=1406211637 instance=ExtResource("2_e2o6t")]
-position = Vector2(0.69444525, 0.73528326)
+position = Vector2(3.9100647e-05, -3.2782555e-06)
 
 [node name="car" type="Sprite2D" parent="." unique_id=481756004]
-position = Vector2(12, 9.000001)
-scale = Vector2(1.3768578, 1.7548263)
-texture = ExtResource("1_80nbo")
+position = Vector2(96, 40.999985)
+scale = Vector2(0.5737105, 0.6573181)
+texture = ExtResource("3_33cqm")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1114501318]
-polygon = PackedVector2Array(-278, 229, -275, 68, -228, 32, -181, -113, -101, -188, 2, -174, 175, -13, 241, 83, 335, 143, 338, 235)
+visible = false
+position = Vector2(5.999999, 11.999999)
+scale = Vector2(0.74191743, 0.6621662)
+polygon = PackedVector2Array(-458, 178, -462, 48, -476, -50, -200, -61, -119, -87, -72, -33, 234, -22, 460, -38, 676, 78, 670, 193)

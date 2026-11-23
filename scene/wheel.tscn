@@ -1,17 +1,20 @@
 [gd_scene format=3 uid="uid://lanqaawvcbg4"]
 
-[ext_resource type="Texture2D" uid="uid://sdp7y5n8cir6" path="res://Assest/tire.png" id="1_jvtuh"]
+[ext_resource type="Texture2D" uid="uid://bxe11mos144vn" path="res://Assest/car/wheels.png" id="1_jvtuh"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_g13lv"]
-radius = 61.587337
+radius = 63.007935
 
 [node name="wheel" type="RigidBody2D" unique_id=2034086427 groups=["wheel"]]
-position = Vector2(289, -101)
+position = Vector2(290, -95)
 gravity_scale = 8.0
 
 [node name="wheels" type="Sprite2D" parent="." unique_id=719944828]
-scale = Vector2(1.1285714, 1.2142857)
+scale = Vector2(0.66277564, 0.6466801)
 texture = ExtResource("1_jvtuh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=809795992]
+visible = false
+position = Vector2(0, 2)
+scale = Vector2(1.3269475, 1.2864176)
 shape = SubResource("CircleShape2D_g13lv")
