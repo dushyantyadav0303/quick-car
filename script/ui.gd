@@ -11,7 +11,7 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	if fuel > 0:
-		fuel = max(fuel - 7 * delta, 0.0)
+		fuel = max(fuel - 3 * delta, 0.0)
 		_update_fuel_gauge()
 		if fuel < 30:
 			if not $AnimationPlayer.is_playing():
@@ -48,3 +48,10 @@ func add_fuel():
 func set_speed(ratio: float) -> void:
 	var target = lerp(-28, 105, ratio)
 	$RedGaugeNeedleSprite.rotation_degrees = lerp($RedGaugeNeedleSprite.rotation_degrees, target, 0.05)
+
+
+
+
+func _on_pause_pressed() -> void:
+	print("pause")
+	pass # Replace with function body.

@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://cbadgw0nf0l7q" path="res://Assest/fuel/Fuel gauge indicator center.PNG" id="6_0oc5v"]
 [ext_resource type="Texture2D" uid="uid://c24h56mlp7ba4" path="res://Assest/fuel/fuel gauge structure no indicator.PNG" id="8_vqisl"]
 [ext_resource type="Texture2D" uid="uid://cjkjanmtq84dg" path="res://Assest/Screenshot 2026-11-24 184149.png" id="8_xcrjw"]
+[ext_resource type="Texture2D" uid="uid://c4m2qom1bjwfb" path="res://Assest/pause.png" id="9_xcrjw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ijgdr"]
 atlas = ExtResource("1_onfsl")
@@ -32,6 +33,54 @@ tracks/0/keys = {
 "points": PackedFloat32Array(1, -0.25, 0, 0.25, 0),
 "times": PackedFloat32Array(0)
 }
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("pause:scale:x")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("pause:scale:y")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="Animation" id="Animation_n2xhd"]
+resource_name = "click"
+length = 0.9
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("pause:scale:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(0.28620666, -0.25, 0, 0.25, 0, 0.2, -0.12777779, 0.047701113, 0, 0),
+"times": PackedFloat32Array(0.01, 0.8)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("pause:scale:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(0.2861958, -0.25, 0, 0.25, 0, 0.2, -0.12777779, 0.047699306, 0, 0),
+"times": PackedFloat32Array(0.001, 0.8)
+}
 
 [sub_resource type="Animation" id="Animation_xcrjw"]
 resource_name = "low fuel "
@@ -45,13 +94,14 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "handle_modes": PackedInt32Array(0, 0),
 "points": PackedFloat32Array(0, -0.16666667, 0, 0, 0, 1, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(0, 0.96666664)
+"times": PackedFloat32Array(-0.26666668, 0.96666664)
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_xcrjw"]
 _data = {
 &"Alarm": SubResource("Animation_0oc5v"),
 &"RESET": SubResource("Animation_vqisl"),
+&"click": SubResource("Animation_n2xhd"),
 &"low fuel ": SubResource("Animation_xcrjw")
 }
 
@@ -118,13 +168,23 @@ reset_on_save = false
 libraries/ = SubResource("AnimationLibrary_xcrjw")
 
 [node name="GlowingLowFuelDashboardIcon" type="Sprite2D" parent="." unique_id=2048996365]
-modulate = Color(1, 1, 1, 0.5424834)
+modulate = Color(1, 1, 1, 0.2616196)
 z_index = 21
-position = Vector2(633.5781, 903.65625)
-scale = Vector2(0.07607008, 0.080749504)
+position = Vector2(634, 901.99994)
+scale = Vector2(0.096668, 0.113491766)
 texture = ExtResource("4_0oc5v")
 
 [node name="Screenshot20261124184149" type="Sprite2D" parent="." unique_id=1574422752]
 position = Vector2(635.00006, 894)
 scale = Vector2(0.556604, 0.5094345)
 texture = ExtResource("8_xcrjw")
+
+[node name="pause" type="TextureButton" parent="." unique_id=1768145403]
+offset_left = 1740.9999
+offset_top = 37.000004
+offset_right = 2253.0
+offset_bottom = 549.0
+scale = Vector2(0.27031672, 0.26981845)
+texture_normal = ExtResource("9_xcrjw")
+
+[connection signal="pressed" from="pause" to="." method="_on_pause_pressed"]
