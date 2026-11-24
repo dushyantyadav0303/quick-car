@@ -1,2 +1,9 @@
 res://scene/game.tscn
+res://script/game.gd
+res://script/fuel.gd
 res://scene/wheel.tscn
+res://scene/coin.tscn
+res://levels/level_1.tscn
+res://scene/ui.tscn
+res://script/ui.gd
+res://scene/fuel.tscn

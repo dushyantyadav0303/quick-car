@@ -13,7 +13,6 @@ radius = 50.0
 height = 172.0
 
 [node name="player" type="RigidBody2D" unique_id=1544543778 groups=["player"]]
-gravity_scale = 8.0
 script = ExtResource("1_33cqm")
 
 [node name="wheelholder" type="PinJoint2D" parent="." unique_id=838220227]
@@ -74,7 +73,7 @@ position = Vector2(0, 15)
 
 [node name="Sprite2D" type="Sprite2D" parent="Character" unique_id=1393598701]
 z_index = -24
-position = Vector2(51, -112)
+position = Vector2(51, -112.00001)
 scale = Vector2(0.15770487, 0.18905097)
 texture = ExtResource("4_xwcet")
 

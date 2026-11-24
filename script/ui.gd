@@ -5,24 +5,35 @@ var fuel = 100
 
 func _ready() -> void:
 	add_to_group("ui")
-	$fuelgauge.stop() 
+	#$fuelgauge.stop() 
 	_update_fuel_gauge()
 
 
 func _process(delta: float) -> void:
 	if fuel > 0:
-		fuel = max(fuel - 3 * delta, 0.0)
+		fuel = max(fuel - 7 * delta, 0.0)
 		_update_fuel_gauge()
-		if fuel == 0:
-			out_of_fuel()
+		if fuel < 30:
+			if not $AnimationPlayer.is_playing():
+				$AnimationPlayer.play("low fuel ")
+		else:
+			$AnimationPlayer.stop()
+			if fuel == 0:
+				out_of_fuel()
+				
+
+
 
 func _update_fuel_gauge() -> void:
-	$fuelgauge.frame = roundi(fuel / 100.0 * 77)
+	#$fuelgauge.frame = roundi(fuel / 100.0 * 77)
+	#print(fuel)
+	var target2 = lerp(-6.0, 105.0, fuel / 100.0)
+	$RedGaugeNeedleSprite2.rotation_degrees = lerp($RedGaugeNeedleSprite2.rotation_degrees, target2, 0.05)
 
 
 func out_of_fuel() -> void:
 	get_tree().call_group("game", "stop")
-	pass
+	print("out of fuel")
 	
 	
 func add_coin():
