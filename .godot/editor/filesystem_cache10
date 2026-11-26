@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1795713895
+::res://::1795720122
 icon.svg::CompressedTexture2D::6615356431829036263::1794736362::1794736369::1::::<><><>0<>0<>8b6f4629e42434f52fba0625abeb2352<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1794736279::0::1::::<><><>0<>0<><>::
 ::res://addons/::1795280192
@@ -154,10 +154,10 @@ mesh_cache.gd::GDScript::848411963898911600::1795280194::0::1::::SS2D_MeshCache<
 point.gd::GDScript::3935060174271840904::1795280194::0::1::::SS2D_Point<>Resource<><>0<>1<><>::
 point_array.gd::GDScript::3431357405438835698::1795280194::0::1::::SS2D_Point_Array<>Resource<><>0<>1<><>::
 quad.gd::GDScript::490629576136135773::1795280194::0::1::::SS2D_Quad<>RefCounted<><>0<>1<><>::
-shape.gd::GDScript::7656950416412984953::1795280194::0::1::::SS2D_Shape<>Node2D<><>0<>1<><>::
-shape_anchor.gd::GDScript::5950286973456441137::1795280194::0::1::::SS2D_Shape_Anchor<>Node2D<><>0<>1<><>::
-shape_closed.gd::GDScript::6970773578356395946::1795280194::0::1::::SS2D_Shape_Closed<>SS2D_Shape<><>0<>1<><>::
-shape_open.gd::GDScript::1658298886214954802::1795280194::0::1::::SS2D_Shape_Open<>SS2D_Shape<><>0<>1<><>::
+shape.gd::GDScript::7656950416412984953::1795280194::0::1::::SS2D_Shape<>Node2D<>res://addons/rmsmartshape/assets/closed_shape.png<>0<>1<><>::
+shape_anchor.gd::GDScript::5950286973456441137::1795280194::0::1::::SS2D_Shape_Anchor<>Node2D<>res://addons/rmsmartshape/assets/Anchor.svg<>0<>1<><>::
+shape_closed.gd::GDScript::6970773578356395946::1795280194::0::1::::SS2D_Shape_Closed<>SS2D_Shape<>res://addons/rmsmartshape/assets/closed_shape.png<>0<>1<><>::
+shape_open.gd::GDScript::1658298886214954802::1795280194::0::1::::SS2D_Shape_Open<>SS2D_Shape<>res://addons/rmsmartshape/assets/open_shape.png<>0<>1<><>::
 ::res://addons/rmsmartshape/tools/::1795280194
 collision_tool.gd::GDScript::2407771562857444705::1795280194::0::1::::SS2D_CollisionEditorTool<>SS2D_EditorTool<><>0<>0<><>::
 editor_tool.gd::GDScript::3749886262550850869::1795280194::0::1::::SS2D_EditorTool<>RefCounted<><>0<>0<><>::
@@ -192,22 +192,22 @@ Speedometer .png::CompressedTexture2D::4459792531769584116::1795533438::17955334
 ::res://Assest/terrain/::1795533438
 nature-paltformer-tileset-16x16.png::CompressedTexture2D::3340485689251171545::1795533438::1795533438::1::::<><><>0<>0<>b950bfc0bafe68ce3fd290ec961f2a04<>res://.godot/imported/nature-paltformer-tileset-16x16.png-fe8f7257db4a43e2428821b35347d98d.ctex::
 Terrain (16x16).png::CompressedTexture2D::7348785242497639529::1795533438::1795533438::1::::<><><>0<>0<>ecc5d4c49ae5869fc8ac64c2b242a20a<>res://.godot/imported/Terrain (16x16).png-ff4e1f8f1cdcfcfc4a83d520ecfa6ac4.ctex::
-::res://levels/::1795519459
-level_1.tscn::PackedScene::8051391521879134550::1795519459::0::1::::<><><>0<>0<><>::uid://co7cq35hukxpq::::res://script/level_1.gd<>uid://cv0kqehxcsdn::::res://scene/game.tscn<>uid://dhdc4b8yddyej::::res://addons/rmsmartshape/shapes/shape.gd<>uid://bo5f7qe27jfje::::res://addons/rmsmartshape/shapes/point_array.gd<>uid://bwcf4pjgprn0k::::res://addons/rmsmartshape/shapes/point.gd<>uid://llobjh5hvry::::res://addons/rmsmartshape/shapes/mesh.gd<>uid://mc8hrt0xxmjg::::res://addons/rmsmartshape/shapes/mesh_cache.gd<>uid://b4niqro0d0yi2::::res://Assest/Terrain (16x16).png<>uid://0lhxan4cqrc1::::res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://dcx2oixdtnugv::::res://Assest/terrain/Terrain (16x16).png<>uid://nc5bfedvnpgm::::res://addons/rmsmartshape/materials/shape_material.gd<>uid://d0xjijisx1woh::::res://addons/rmsmartshape/materials/edge_material.gd<>uid://d218yx0d1ilsn::::res://addons/rmsmartshape/normal_range.gd<>uid://bfe1g3jvftr3o::::res://scene/coin.tscn<>uid://cmdmn7bpfrqxr::::res://scene/ui.tscn<>uid://blbow8ri8imtl::::res://scene/fuel.tscn
-::res://scene/::1795713621
+::res://levels/::1795718075
+level_1.tscn::PackedScene::8051391521879134550::1795718075::0::1::::<><><>0<>0<><>::uid://co7cq35hukxpq::::res://script/level_1.gd<>uid://cv0kqehxcsdn::::res://scene/game.tscn<>uid://dhdc4b8yddyej::::res://addons/rmsmartshape/shapes/shape.gd<>uid://bo5f7qe27jfje::::res://addons/rmsmartshape/shapes/point_array.gd<>uid://bwcf4pjgprn0k::::res://addons/rmsmartshape/shapes/point.gd<>uid://llobjh5hvry::::res://addons/rmsmartshape/shapes/mesh.gd<>uid://mc8hrt0xxmjg::::res://addons/rmsmartshape/shapes/mesh_cache.gd<>uid://b4niqro0d0yi2::::res://Assest/Terrain (16x16).png<>uid://0lhxan4cqrc1::::res://addons/rmsmartshape/materials/edge_material_metadata.gd<>uid://dcx2oixdtnugv::::res://Assest/terrain/Terrain (16x16).png<>uid://nc5bfedvnpgm::::res://addons/rmsmartshape/materials/shape_material.gd<>uid://d0xjijisx1woh::::res://addons/rmsmartshape/materials/edge_material.gd<>uid://d218yx0d1ilsn::::res://addons/rmsmartshape/normal_range.gd<>uid://bfe1g3jvftr3o::::res://scene/coin.tscn<>uid://cmdmn7bpfrqxr::::res://scene/ui.tscn<>uid://blbow8ri8imtl::::res://scene/fuel.tscn
+::res://scene/::1795717622
 audio_stream_player.gd::GDScript::5997779669636172492::1795712188::0::1::::<>RefCounted<><>0<>0<><>::
-coin.tscn::PackedScene::2747213254993496274::1795527553::0::1::::<><><>0<>0<><>::uid://ck2jda66r3ihn::::res://script/coin.gd<>uid://cev5o4ysyqdhx::::res://sound/driken5482-retro-coin-4-236671.mp3<>uid://b8n01mc2qpf32::::res://Assest/coin4_16x16.png
+coin.tscn::PackedScene::2747213254993496274::1795717622::0::1::::<><><>0<>0<><>::uid://ck2jda66r3ihn::::res://script/coin.gd<>uid://cev5o4ysyqdhx::::res://sound/driken5482-retro-coin-4-236671.mp3<>uid://b8n01mc2qpf32::::res://Assest/coin4_16x16.png
 fuel.tscn::PackedScene::3161453426770296529::1795527607::0::1::::<><><>0<>0<><>::uid://c6ro5106u42a::::res://script/fuel.gd<>uid://cimaxqwls1vp3::::res://Assest/fuel-canister.png<>uid://bml0jvpir7cnc::::res://sound/creatorshome-sharp-pop-328170.mp3
-game.tscn::PackedScene::185266249771233819::1795713621::0::1::::<><><>0<>0<><>::uid://b2a2tu6ei0ccq::::res://script/game.gd<>uid://lanqaawvcbg4::::res://scene/wheel.tscn<>uid://jhkh3km43jjv::::res://Assest/car/sports car.png<>uid://cu1irjgd6ktg::::res://Assest/car/Left-Profile Loc Portrait.png
-ui.tscn::PackedScene::5622054126519640791::1795713563::0::1::::<><><>0<>0<><>::uid://b8n01mc2qpf32::::res://Assest/coin4_16x16.png<>uid://e8gn05em2qjv::::res://script/ui.gd<>uid://b86u2yioc8c45::::res://Assest/Glowing Low Fuel Dashboard Icon.png<>uid://b4smep6d2b5mm::::res://Assest/fuel/Speedometer .png<>uid://3ggb5o706yxf::::res://Assest/fuel/Red Gauge Needle Sprite.png<>uid://cbadgw0nf0l7q::::res://Assest/fuel/Fuel gauge indicator center.PNG<>uid://c24h56mlp7ba4::::res://Assest/fuel/fuel gauge structure no indicator.PNG<>uid://cjkjanmtq84dg::::res://Assest/Screenshot 2026-11-24 184149.png<>uid://c4m2qom1bjwfb::::res://Assest/pause.png
+game.tscn::PackedScene::185266249771233819::1795717299::0::1::::<><><>0<>0<><>::uid://b2a2tu6ei0ccq::::res://script/game.gd<>uid://lanqaawvcbg4::::res://scene/wheel.tscn<>uid://jhkh3km43jjv::::res://Assest/car/sports car.png<>uid://cu1irjgd6ktg::::res://Assest/car/Left-Profile Loc Portrait.png<>uid://dpokarvgixeam::::res://sound/8bit-engine.ogg
+ui.tscn::PackedScene::5622054126519640791::1795716829::0::1::::<><><>0<>0<><>::uid://b8n01mc2qpf32::::res://Assest/coin4_16x16.png<>uid://e8gn05em2qjv::::res://script/ui.gd<>uid://b86u2yioc8c45::::res://Assest/Glowing Low Fuel Dashboard Icon.png<>uid://b4smep6d2b5mm::::res://Assest/fuel/Speedometer .png<>uid://3ggb5o706yxf::::res://Assest/fuel/Red Gauge Needle Sprite.png<>uid://cbadgw0nf0l7q::::res://Assest/fuel/Fuel gauge indicator center.PNG<>uid://c24h56mlp7ba4::::res://Assest/fuel/fuel gauge structure no indicator.PNG<>uid://cjkjanmtq84dg::::res://Assest/Screenshot 2026-11-24 184149.png<>uid://c4m2qom1bjwfb::::res://Assest/pause.png
 wheel.tscn::PackedScene::772895174654520973::1795517632::0::1::::<><><>0<>0<><>::uid://bxe11mos144vn::::res://Assest/car/wheels.png
-::res://script/::1795628240
+::res://script/::1795717299
 coin.gd::GDScript::5531019862764015531::1795368947::0::1::::<>Area2D<><>0<>0<><>::
 fuel.gd::GDScript::205432204687167930::1795517533::0::1::::<>Area2D<><>0<>0<><>::
-game.gd::GDScript::4283193849358220132::1795628240::0::1::::<>RigidBody2D<><>0<>0<><>::
+game.gd::GDScript::4283193849358220132::1795716104::0::1::::<>RigidBody2D<><>0<>0<><>::
 level_1.gd::GDScript::5821696790479710938::1795368253::0::1::::<>Node2D<><>0<>0<><>::
-ui.gd::GDScript::349268717340208415::1795533892::0::1::::<>CanvasLayer<><>0<>0<><>::
-::res://sound/::1795713895
+ui.gd::GDScript::349268717340208415::1795717299::0::1::::<>CanvasLayer<><>0<>0<><>::
+::res://sound/::1795713904
 8bit-engine.ogg::AudioStreamOggVorbis::8241604089756347476::1795713887::1795713904::1::::<><><>0<>0<>0104e27bcab2d6e7fb30dc2f3c5a1a65<>res://.godot/imported/8bit-engine.ogg-5d981cc9ebf661693ccf48f3c82b4e2a.oggvorbisstr::
 creatorshome-sharp-pop-328170.mp3::AudioStreamMP3::3252930086158333716::1795371592::1795371613::1::::<><><>0<>0<>fc8bdeec64ad83198f87edda393b34cf<>res://.godot/imported/creatorshome-sharp-pop-328170.mp3-249fa8aadaa6eaad171c935944f86bea.mp3str::
 driken5482-retro-coin-4-236671.mp3::AudioStreamMP3::5098796746774251857::1795350428::1795350495::1::::<><><>0<>0<>ddcc85d2e840df8c9d2f3c49cf11f6b3<>res://.godot/imported/driken5482-retro-coin-4-236671.mp3-8435bf7187055fc24447b8641ac462c5.mp3str::

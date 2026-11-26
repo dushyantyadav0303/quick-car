@@ -151,6 +151,8 @@ _data = {
 script = ExtResource("1_v7riw")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=281428975]
+modulate = Color(1, 1, 1, 0.9995588)
+position = Vector2(0, -6.0378313)
 sprite_frames = SubResource("SpriteFrames_d0vl4")
 autoplay = "default"
 frame = 8

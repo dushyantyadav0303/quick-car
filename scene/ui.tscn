@@ -158,10 +158,10 @@ scale = Vector2(0.556604, 0.5094345)
 texture = ExtResource("8_xcrjw")
 
 [node name="pause" type="TextureButton" parent="." unique_id=1768145403]
-offset_left = 1740.9999
+offset_left = 1792.0001
 offset_top = 37.0
-offset_right = 9701757.0
-offset_bottom = 9600038.0
+offset_right = 8201808.0
+offset_bottom = 7100038.0
 scale = Vector2(1e-05, 1e-05)
 texture_normal = ExtResource("9_xcrjw")
 

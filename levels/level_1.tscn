@@ -61,6 +61,7 @@ script = ExtResource("3_08mmt")
 position = Vector2(-392.11182, -193.32202)
 point_in = Vector2(-641.7853, -1793.0238)
 point_out = Vector2(152.55273, 343.24365)
+texture_idx = -10
 
 [sub_resource type="Resource" id="Resource_w75he"]
 script = ExtResource("3_08mmt")
@@ -317,6 +318,122 @@ scale = Vector2(11.649561, 11.019499)
 [node name="coin" parent="coin" unique_id=1672550465 instance=ExtResource("14_betor")]
 position = Vector2(-21948, 192)
 scale = Vector2(11.649561, 11.019499)
+
+[node name="coin13" parent="coin" unique_id=572986986 instance=ExtResource("14_betor")]
+position = Vector2(-18280, -890)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin14" parent="coin" unique_id=1935056661 instance=ExtResource("14_betor")]
+position = Vector2(-16496, -1250)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin15" parent="coin" unique_id=1472492441 instance=ExtResource("14_betor")]
+position = Vector2(-16125, -1305)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin16" parent="coin" unique_id=257714150 instance=ExtResource("14_betor")]
+position = Vector2(-15683, -1311)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin17" parent="coin" unique_id=740502892 instance=ExtResource("14_betor")]
+position = Vector2(-15222.999, -1253)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin18" parent="coin" unique_id=1508336758 instance=ExtResource("14_betor")]
+position = Vector2(-14699, -1054)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin19" parent="coin" unique_id=187695401 instance=ExtResource("14_betor")]
+position = Vector2(-14288.999, -745)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin20" parent="coin" unique_id=1285989063 instance=ExtResource("14_betor")]
+position = Vector2(-13993, -459.99988)
+scale = Vector2(11.649558, 11.019499)
+
+[node name="coin21" parent="coin" unique_id=809170250 instance=ExtResource("14_betor")]
+position = Vector2(-13730.999, -144.99988)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin22" parent="coin" unique_id=122561500 instance=ExtResource("14_betor")]
+position = Vector2(-9539, -1351.9999)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin23" parent="coin" unique_id=1561154473 instance=ExtResource("14_betor")]
+position = Vector2(-8790, -1823)
+scale = Vector2(11.649558, 11.019499)
+
+[node name="coin24" parent="coin" unique_id=1825293054 instance=ExtResource("14_betor")]
+position = Vector2(-9037, -1680)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin25" parent="coin" unique_id=1296508687 instance=ExtResource("14_betor")]
+position = Vector2(-16921, -1181.9998)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin26" parent="coin" unique_id=1253724914 instance=ExtResource("14_betor")]
+position = Vector2(-9281, -1518)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin27" parent="coin" unique_id=1756943635 instance=ExtResource("14_betor")]
+position = Vector2(-1372, 1184)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin28" parent="coin" unique_id=2023541329 instance=ExtResource("14_betor")]
+position = Vector2(-1077, 1210)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin40" parent="coin" unique_id=372565838 instance=ExtResource("14_betor")]
+position = Vector2(-485, 1195)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin29" parent="coin" unique_id=2129939145 instance=ExtResource("14_betor")]
+position = Vector2(7660, -2414)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin30" parent="coin" unique_id=44309623 instance=ExtResource("14_betor")]
+position = Vector2(7388.9995, -2337)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin31" parent="coin" unique_id=1793559643 instance=ExtResource("14_betor")]
+position = Vector2(26176.998, -1538.9999)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin32" parent="coin" unique_id=408506605 instance=ExtResource("14_betor")]
+position = Vector2(17548, 1351.9999)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin33" parent="coin" unique_id=969975924 instance=ExtResource("14_betor")]
+position = Vector2(17263, 1150)
+scale = Vector2(11.649558, 11.019499)
+
+[node name="coin34" parent="coin" unique_id=428567824 instance=ExtResource("14_betor")]
+position = Vector2(26448, -1580)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin35" parent="coin" unique_id=926301469 instance=ExtResource("14_betor")]
+position = Vector2(17015, 929)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin36" parent="coin" unique_id=513982911 instance=ExtResource("14_betor")]
+position = Vector2(8233, -2609)
+scale = Vector2(11.649558, 11.019499)
+
+[node name="coin37" parent="coin" unique_id=672186519 instance=ExtResource("14_betor")]
+position = Vector2(7952.9995, -2512)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin38" parent="coin" unique_id=210688057 instance=ExtResource("14_betor")]
+position = Vector2(-779.99994, 1224)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="coin39" parent="coin" unique_id=1780878507 instance=ExtResource("14_betor")]
+position = Vector2(7129, -2257)
+scale = Vector2(11.649561, 11.019499)
+
+[node name="fuel2" parent="coin" unique_id=460460369 instance=ExtResource("16_bgw3c")]
+position = Vector2(25755, -1529)
+scale = Vector2(7.074509, 6.1956034)
 
 [node name="UI" parent="." unique_id=302428714 instance=ExtResource("15_vjtdm")]
 
