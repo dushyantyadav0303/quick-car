@@ -1,2 +1,6 @@
+res://scene/audio_stream_player.gd
+res://scene/game.tscn
 res://scene/ui.tscn
+res://script/game.gd
 res://script/ui.gd
+res://levels/level_1.tscn

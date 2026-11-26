@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://lanqaawvcbg4" path="res://scene/wheel.tscn" id="2_e2o6t"]
 [ext_resource type="Texture2D" uid="uid://jhkh3km43jjv" path="res://Assest/car/sports car.png" id="3_33cqm"]
 [ext_resource type="Texture2D" uid="uid://cu1irjgd6ktg" path="res://Assest/car/Left-Profile Loc Portrait.png" id="4_xwcet"]
+[ext_resource type="AudioStream" uid="uid://dpokarvgixeam" path="res://sound/8bit-engine.ogg" id="5_p1ry8"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xwcet"]
 radius = 60.207973
@@ -100,3 +101,9 @@ visible = false
 position = Vector2(5.999999, 11.999999)
 scale = Vector2(0.74191743, 0.6621662)
 polygon = PackedVector2Array(-458, 178, -462, 48, -476, -50, -200, -61, -119, -87, -72, -33, 234, -22, 460, -38, 676, 78, 670, 193)
+
+[node name="engineSFX" type="AudioStreamPlayer" parent="." unique_id=1666513614]
+stream = ExtResource("5_p1ry8")
+volume_db = -11.854
+autoplay = true
+parameters/looping = true

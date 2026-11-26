@@ -21,7 +21,7 @@ resource_name = "Alarm"
 loop_mode = 1
 
 [sub_resource type="Animation" id="Animation_vqisl"]
-length = 0.001
+length = 0.3
 tracks/0/type = "bezier"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -31,28 +31,6 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "handle_modes": PackedInt32Array(0),
 "points": PackedFloat32Array(1, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(0)
-}
-tracks/1/type = "bezier"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("pause:scale:x")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"handle_modes": PackedInt32Array(0),
-"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
-"times": PackedFloat32Array(0)
-}
-tracks/2/type = "bezier"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("pause:scale:y")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"handle_modes": PackedInt32Array(0),
-"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
 "times": PackedFloat32Array(0)
 }
 
@@ -181,10 +159,10 @@ texture = ExtResource("8_xcrjw")
 
 [node name="pause" type="TextureButton" parent="." unique_id=1768145403]
 offset_left = 1740.9999
-offset_top = 37.000004
-offset_right = 2253.0
-offset_bottom = 549.0
-scale = Vector2(0.27031672, 0.26981845)
+offset_top = 37.0
+offset_right = 9701757.0
+offset_bottom = 9600038.0
+scale = Vector2(1e-05, 1e-05)
 texture_normal = ExtResource("9_xcrjw")
 
 [connection signal="pressed" from="pause" to="." method="_on_pause_pressed"]

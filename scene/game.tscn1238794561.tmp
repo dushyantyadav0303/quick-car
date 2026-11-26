@@ -1,0 +1,110 @@
+[gd_scene format=3 uid="uid://cv0kqehxcsdn"]
+
+[ext_resource type="Script" uid="uid://b2a2tu6ei0ccq" path="res://script/game.gd" id="1_33cqm"]
+[ext_resource type="PackedScene" uid="uid://lanqaawvcbg4" path="res://scene/wheel.tscn" id="2_e2o6t"]
+[ext_resource type="Texture2D" uid="uid://jhkh3km43jjv" path="res://Assest/car/sports car.png" id="3_33cqm"]
+[ext_resource type="Texture2D" uid="uid://cu1irjgd6ktg" path="res://Assest/car/Left-Profile Loc Portrait.png" id="4_xwcet"]
+[ext_resource type="Script" uid="uid://crpms4ox4vx53" path="res://scene/audio_stream_player.gd" id="5_p1ry8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xwcet"]
+radius = 60.207973
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g13lv"]
+radius = 50.0
+height = 172.0
+
+[sub_resource type="AudioStreamGenerator" id="AudioStreamGenerator_xwcet"]
+buffer_length = 0.1
+
+[node name="player" type="RigidBody2D" unique_id=1544543778 groups=["player"]]
+script = ExtResource("1_33cqm")
+
+[node name="wheelholder" type="PinJoint2D" parent="." unique_id=838220227]
+position = Vector2(-190, 125)
+scale = Vector2(1.4399979, 1.3599994)
+node_a = NodePath("..")
+node_b = NodePath("RigidBody2D")
+softness = 2.0
+
+[node name="RigidBody2D" parent="wheelholder" unique_id=2034086427 instance=ExtResource("2_e2o6t")]
+position = Vector2(1.4305115e-05, -1.3887882e-05)
+scale = Vector2(0.7306431, 0.735125)
+
+[node name="wheelholder2" type="PinJoint2D" parent="." unique_id=574554837]
+position = Vector2(327.00003, 128)
+scale = Vector2(1.091376, 1.0503073)
+node_a = NodePath("..")
+node_b = NodePath("RigidBody2D")
+softness = 2.0
+
+[node name="RigidBody2D" parent="wheelholder2" unique_id=1406211637 instance=ExtResource("2_e2o6t")]
+position = Vector2(3.9100647e-05, -3.2782555e-06)
+
+[node name="limiter2" type="RigidBody2D" parent="." unique_id=433026696]
+visible = false
+position = Vector2(303, 17)
+mass = 0.1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="limiter2" unique_id=1214386925]
+visible = false
+position = Vector2(-145, -77)
+shape = SubResource("CircleShape2D_xwcet")
+
+[node name="PinJoint2D" type="PinJoint2D" parent="limiter2" unique_id=829364180]
+visible = false
+position = Vector2(-145, -77)
+node_a = NodePath("..")
+node_b = NodePath("../..")
+
+[node name="limiter" type="RigidBody2D" parent="." unique_id=550965404]
+visible = false
+position = Vector2(-20, 36)
+mass = 0.1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="limiter" unique_id=52533917]
+visible = false
+position = Vector2(-78, -121)
+shape = SubResource("CircleShape2D_xwcet")
+
+[node name="PinJoint2D" type="PinJoint2D" parent="limiter" unique_id=1031172045]
+visible = false
+position = Vector2(-77, -121)
+node_a = NodePath("..")
+node_b = NodePath("../..")
+
+[node name="Character" type="RigidBody2D" parent="." unique_id=772819215]
+position = Vector2(0, 15)
+
+[node name="Sprite2D" type="Sprite2D" parent="Character" unique_id=1393598701]
+z_index = -24
+position = Vector2(51, -112.00001)
+scale = Vector2(0.15770487, 0.18905097)
+texture = ExtResource("4_xwcet")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Character" unique_id=512404575]
+visible = false
+position = Vector2(48, -88)
+shape = SubResource("CapsuleShape2D_g13lv")
+
+[node name="spring effect" type="PinJoint2D" parent="Character" unique_id=415070513]
+position = Vector2(48, 127)
+node_a = NodePath("..")
+node_b = NodePath("../..")
+softness = 0.29
+angular_limit_lower = -0.9721484
+angular_limit_upper = 0.9180432
+
+[node name="car" type="Sprite2D" parent="." unique_id=481756004]
+position = Vector2(96, 40.999985)
+scale = Vector2(0.5737105, 0.6573181)
+texture = ExtResource("3_33cqm")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1114501318]
+visible = false
+position = Vector2(5.999999, 11.999999)
+scale = Vector2(0.74191743, 0.6621662)
+polygon = PackedVector2Array(-458, 178, -462, 48, -476, -50, -200, -61, -119, -87, -72, -33, 234, -22, 460, -38, 676, 78, 670, 193)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=51368642]
+stream = SubResource("AudioStreamGenerator_xwcet")
+script = ExtResource("5_p1ry8")

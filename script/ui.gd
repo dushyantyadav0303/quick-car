@@ -11,16 +11,18 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	if fuel > 0:
-		fuel = max(fuel - 3 * delta, 0.0)
+		fuel = max(fuel - 10 * delta, 0.0)
 		_update_fuel_gauge()
-		if fuel < 30:
-			if not $AnimationPlayer.is_playing():
-				$AnimationPlayer.play("low fuel ")
-		else:
-			$AnimationPlayer.stop()
-			if fuel == 0:
-				out_of_fuel()
+	if fuel < 30:
+		if not $AnimationPlayer.is_playing():
+			$AnimationPlayer.play("low fuel ")
+	else:
+		$AnimationPlayer.stop()
+
+	if fuel == 0:
+		out_of_fuel()
 				
+
 
 
 
