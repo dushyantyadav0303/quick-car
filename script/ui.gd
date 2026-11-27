@@ -63,7 +63,12 @@ func set_speed(ratio: float) -> void:
 	var target = lerp(-28, 105, ratio)
 	$RedGaugeNeedleSprite.rotation_degrees = lerp($RedGaugeNeedleSprite.rotation_degrees, target, 0.05)
 
+func show_airtime(t: float):
+	$"air-time".show()
+	$"air-time".text = "AIR TIME\n%.1f s" % t
 
+func hide_airtime():
+	$"air-time".hide()
 
 
 func _on_pause_pressed() -> void:

@@ -1,0 +1,178 @@
+[gd_scene format=3 uid="uid://cmdmn7bpfrqxr"]
+
+[ext_resource type="Texture2D" uid="uid://b8n01mc2qpf32" path="res://Assest/coin4_16x16.png" id="1_onfsl"]
+[ext_resource type="Script" uid="uid://e8gn05em2qjv" path="res://script/ui.gd" id="1_s2f8l"]
+[ext_resource type="Texture2D" uid="uid://b86u2yioc8c45" path="res://Assest/Glowing Low Fuel Dashboard Icon.png" id="4_0oc5v"]
+[ext_resource type="Texture2D" uid="uid://b4smep6d2b5mm" path="res://Assest/fuel/Speedometer .png" id="4_ytdjg"]
+[ext_resource type="Texture2D" uid="uid://3ggb5o706yxf" path="res://Assest/fuel/Red Gauge Needle Sprite.png" id="5_ajaei"]
+[ext_resource type="Texture2D" uid="uid://cbadgw0nf0l7q" path="res://Assest/fuel/Fuel gauge indicator center.PNG" id="6_0oc5v"]
+[ext_resource type="Texture2D" uid="uid://c24h56mlp7ba4" path="res://Assest/fuel/fuel gauge structure no indicator.PNG" id="8_vqisl"]
+[ext_resource type="Texture2D" uid="uid://cjkjanmtq84dg" path="res://Assest/Screenshot 2026-11-24 184149.png" id="8_xcrjw"]
+[ext_resource type="Texture2D" uid="uid://c4m2qom1bjwfb" path="res://Assest/pause.png" id="9_xcrjw"]
+[ext_resource type="FontFile" uid="uid://crpc0handfyou" path="res://font/Caveat-Bold.ttf" id="10_n2xhd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ijgdr"]
+atlas = ExtResource("1_onfsl")
+region = Rect2(128.56232, 0.5253811, 15.252014, 15.108137)
+
+[sub_resource type="FontVariation" id="FontVariation_sjobi"]
+
+[sub_resource type="Animation" id="Animation_0oc5v"]
+resource_name = "Alarm"
+loop_mode = 1
+
+[sub_resource type="Animation" id="Animation_vqisl"]
+length = 0.3
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("GlowingLowFuelDashboardIcon:modulate:a")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(1, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="Animation" id="Animation_n2xhd"]
+resource_name = "click"
+length = 0.9
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("pause:scale:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(0.28620666, -0.25, 0, 0.25, 0, 0.2, -0.12777779, 0.047701113, 0, 0),
+"times": PackedFloat32Array(0.01, 0.8)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("pause:scale:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(0.2861958, -0.25, 0, 0.25, 0, 0.2, -0.12777779, 0.047699306, 0, 0),
+"times": PackedFloat32Array(0.001, 0.8)
+}
+
+[sub_resource type="Animation" id="Animation_xcrjw"]
+resource_name = "low fuel "
+loop_mode = 2
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("GlowingLowFuelDashboardIcon:modulate:a")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(0, -0.16666667, 0, 0, 0, 1, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(-0.26666668, 0.96666664)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xcrjw"]
+_data = {
+&"Alarm": SubResource("Animation_0oc5v"),
+&"RESET": SubResource("Animation_vqisl"),
+&"click": SubResource("Animation_n2xhd"),
+&"low fuel ": SubResource("Animation_xcrjw")
+}
+
+[node name="UI" type="CanvasLayer" unique_id=302428714]
+script = ExtResource("1_s2f8l")
+
+[node name="coin" type="TextureRect" parent="." unique_id=143887699]
+offset_left = 35.0
+offset_top = 37.0
+offset_right = 126.0
+offset_bottom = 133.0
+texture = SubResource("AtlasTexture_ijgdr")
+
+[node name="Label" type="Label" parent="coin" unique_id=1982603486]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 111.0
+offset_top = 8.0
+offset_right = 275.0
+offset_bottom = 89.0
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = SubResource("FontVariation_sjobi")
+theme_override_font_sizes/font_size = 60
+text = "0"
+
+[node name="Speedometer" type="Sprite2D" parent="." unique_id=1173197198]
+position = Vector2(1151, 875)
+scale = Vector2(0.4438073, 0.41530448)
+texture = ExtResource("4_ytdjg")
+
+[node name="RedGaugeNeedleSprite" type="Sprite2D" parent="." unique_id=449348644]
+position = Vector2(1138.9999, 911.99994)
+rotation = 1.7715092
+scale = Vector2(0.27877846, 0.31943578)
+texture = ExtResource("5_ajaei")
+
+[node name="FuelGaugeIndicatorCenter" type="Sprite2D" parent="." unique_id=818381696]
+position = Vector2(1141.5, 908.5)
+scale = Vector2(2.4687512, 2.343751)
+texture = ExtResource("6_0oc5v")
+
+[node name="RedGaugeNeedleSprite2" type="Sprite2D" parent="." unique_id=556075086]
+z_index = 27
+position = Vector2(630.6163, 964.5948)
+rotation = -0.1134464
+scale = Vector2(0.25195587, 0.32906085)
+skew = -0.025949478
+texture = ExtResource("5_ajaei")
+
+[node name="FuelGaugeIndicatorCenter2" type="Sprite2D" parent="." unique_id=2022623463]
+z_index = 27
+position = Vector2(631.7261, 963.1412)
+scale = Vector2(2.3776946, 2.264896)
+texture = ExtResource("6_0oc5v")
+
+[node name="FuelGaugeStructureNoIndicator" type="Sprite2D" parent="." unique_id=345269194]
+z_index = -1
+position = Vector2(629, 883.00006)
+scale = Vector2(3.4678254, 3.34465)
+texture = ExtResource("8_vqisl")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=662072383]
+reset_on_save = false
+libraries/ = SubResource("AnimationLibrary_xcrjw")
+
+[node name="GlowingLowFuelDashboardIcon" type="Sprite2D" parent="." unique_id=2048996365]
+z_index = 21
+position = Vector2(634, 901.99994)
+scale = Vector2(0.096668, 0.113491766)
+texture = ExtResource("4_0oc5v")
+
+[node name="Screenshot20261124184149" type="Sprite2D" parent="." unique_id=1574422752]
+position = Vector2(635.00006, 894)
+scale = Vector2(0.556604, 0.5094345)
+texture = ExtResource("8_xcrjw")
+
+[node name="pause" type="TextureButton" parent="." unique_id=1768145403]
+offset_left = 1781.0001
+offset_top = 45.0
+offset_right = 8201797.0
+offset_bottom = 7100046.0
+scale = Vector2(1e-05, 1e-05)
+texture_normal = ExtResource("9_xcrjw")
+
+[node name="air-time" type="Label" parent="." unique_id=1402055430]
+offset_left = 734.0
+offset_top = 133.0
+offset_right = 1085.0
+offset_bottom = 354.0
+theme_override_fonts/font = ExtResource("10_n2xhd")
+theme_override_font_sizes/font_size = 86
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="pause" to="." method="_on_pause_pressed"]

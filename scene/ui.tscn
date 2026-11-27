@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://c24h56mlp7ba4" path="res://Assest/fuel/fuel gauge structure no indicator.PNG" id="8_vqisl"]
 [ext_resource type="Texture2D" uid="uid://cjkjanmtq84dg" path="res://Assest/Screenshot 2026-11-24 184149.png" id="8_xcrjw"]
 [ext_resource type="Texture2D" uid="uid://c4m2qom1bjwfb" path="res://Assest/pause.png" id="9_xcrjw"]
+[ext_resource type="FontFile" uid="uid://crpc0handfyou" path="res://font/Caveat-Bold.ttf" id="10_n2xhd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ijgdr"]
 atlas = ExtResource("1_onfsl")
@@ -146,7 +147,6 @@ reset_on_save = false
 libraries/ = SubResource("AnimationLibrary_xcrjw")
 
 [node name="GlowingLowFuelDashboardIcon" type="Sprite2D" parent="." unique_id=2048996365]
-modulate = Color(1, 1, 1, 0.2616196)
 z_index = 21
 position = Vector2(634, 901.99994)
 scale = Vector2(0.096668, 0.113491766)
@@ -164,5 +164,15 @@ offset_right = 8201797.0
 offset_bottom = 7100046.0
 scale = Vector2(1e-05, 1e-05)
 texture_normal = ExtResource("9_xcrjw")
+
+[node name="air-time" type="Label" parent="." unique_id=1402055430]
+offset_left = 734.0
+offset_top = 133.0
+offset_right = 1085.0
+offset_bottom = 354.0
+theme_override_fonts/font = ExtResource("10_n2xhd")
+theme_override_font_sizes/font_size = 86
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="pressed" from="pause" to="." method="_on_pause_pressed"]

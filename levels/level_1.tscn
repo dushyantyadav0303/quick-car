@@ -466,7 +466,7 @@ scale = Vector2(1.1812595, 1.0650705)
 texture = ExtResource("19_w75he")
 
 [node name="Finish line" parent="finish line" unique_id=268775794 instance=ExtResource("13_jkxa6")]
-position = Vector2(38691, 1181)
+position = Vector2(38873, 1116)
 
 [node name="fireworks" parent="finish line" unique_id=1011981879 instance=ExtResource("14_w75he")]
 z_index = -196

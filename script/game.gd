@@ -5,6 +5,7 @@ var speed = 100000
 var max_speed = 50
 var driving = 0
 var fade_tween: Tween
+var air_time = 0.0
 
 func stop():
 	speed = 0
@@ -32,13 +33,33 @@ func won():
 	
 	
 	
+	
 func _ready():
 	wheels = get_tree().get_nodes_in_group("wheel")
+	for wheel in wheels:
+		wheel.contact_monitor = true
+		wheel.max_contacts_reported = 1
 	add_to_group("game")
 	play()
 	
 
 func _physics_process(delta):
+	var on_ground = false
+	for wheel in wheels:
+		if wheel.get_colliding_bodies().size() > 0:
+			on_ground = true
+			#print("under air JAJAJSAJSJAJ")
+			
+	if on_ground:
+		if air_time >= 0.5:
+			reward_air_time()
+		air_time = 0.0
+		get_tree().call_group("ui", "hide_airtime")
+	else:
+		air_time += delta
+		if air_time >= 0.5:
+			get_tree().call_group("ui", "show_airtime", air_time)
+			
 	driving = 0 
 	if Input.is_action_pressed("ui_right"):
 		driving += 1 
@@ -68,12 +89,10 @@ func _physics_process(delta):
 	get_tree().call_group("ui", "set_speed", ratio)
 	
 	
-	
-	
-	
-	
-	
-	
+func reward_air_time():
+	print("air time: ", air_time)
+	#get_tree().call_group("ui", "add_coin")
+	get_tree().call_group("ui", "show_air_time", air_time)
 	
 	
 	
