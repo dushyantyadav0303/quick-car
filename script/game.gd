@@ -65,7 +65,7 @@ func _physics_process(delta):
 	else:
 		air_time += delta
 		if air_time >= 0.5:
-			get_tree().call_group("ui", "show_airtime", air_time)
+			get_tree().call_group("ui", "show_airtime", snappedf(air_time, 0.1))
 			
 	driving = 0 
 	if Input.is_action_pressed("ui_right"):
@@ -97,8 +97,7 @@ func _physics_process(delta):
 	
 	
 func reward_air_time():
-	print("air time: ", air_time)
-	#get_tree().call_group("ui", "add_coin")
+	#print(air_time)
 	get_tree().call_group("ui", "show_air_time", air_time)
 	
 	

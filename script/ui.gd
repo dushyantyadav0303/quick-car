@@ -48,7 +48,7 @@ func recover_fuel() -> void:
 	
 	
 func add_coin():
-	coins_collected += 5
+	coins_collected += 50
 	%Label.text = str(coins_collected)
 	
 func add_fuel():
@@ -63,9 +63,11 @@ func set_speed(ratio: float) -> void:
 	var target = lerp(-28, 105, ratio)
 	$RedGaugeNeedleSprite.rotation_degrees = lerp($RedGaugeNeedleSprite.rotation_degrees, target, 0.05)
 
-func show_airtime(t: float):
+func show_airtime(air_time: float):
 	$"air-time".show()
-	$"air-time".text = "AIR TIME\n%.1f s" % t
+	$"air-time".text = "AIR TIME\n%.1f s" % air_time
+	coins_collected += 10 * air_time
+	%Label.text = str(coins_collected)
 
 func hide_airtime():
 	$"air-time".hide()
