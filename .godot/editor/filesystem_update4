@@ -1,3 +1,4 @@
 res://levels/level_1.tscn
-res://scene/coin.tscn
-res://script/ui.gd
+res://script/game.gd
+res://scene/wheel.tscn
+res://scene/game.tscn

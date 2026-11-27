@@ -2,11 +2,17 @@
 
 [ext_resource type="Texture2D" uid="uid://bxe11mos144vn" path="res://Assest/car/wheels.png" id="1_jvtuh"]
 
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_jvtuh"]
+friction = 9.0
+rough = true
+bounce = 0.75
+
 [sub_resource type="CircleShape2D" id="CircleShape2D_g13lv"]
 radius = 63.007935
 
 [node name="wheel" type="RigidBody2D" unique_id=2034086427 groups=["wheel"]]
 position = Vector2(290, -95)
+physics_material_override = SubResource("PhysicsMaterial_jvtuh")
 gravity_scale = 8.0
 
 [node name="wheels" type="Sprite2D" parent="." unique_id=719944828]

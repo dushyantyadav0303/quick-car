@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 var wheels = []
-var speed = 600000
+var speed = 100000
 var max_speed = 50
 var driving = 0
 
@@ -21,7 +21,7 @@ func _physics_process(delta):
 	driving = 0 
 	if Input.is_action_pressed("ui_right"):
 		driving += 1 
-		apply_torque_impulse(-4000 * delta * 60)
+		apply_torque_impulse(-6000 * delta * 60)
 		for wheel in wheels:
 			if wheel.angular_velocity < max_speed:
 				wheel.apply_torque_impulse(speed * delta * 60)  

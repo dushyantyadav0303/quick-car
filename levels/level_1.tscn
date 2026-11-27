@@ -316,7 +316,7 @@ position = Vector2(-18634, -821)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin" parent="coin" unique_id=1672550465 instance=ExtResource("14_betor")]
-position = Vector2(-21948, 192)
+position = Vector2(-30089, -1200)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin13" parent="coin" unique_id=572986986 instance=ExtResource("14_betor")]
@@ -324,35 +324,35 @@ position = Vector2(-18280, -890)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin14" parent="coin" unique_id=1935056661 instance=ExtResource("14_betor")]
-position = Vector2(-16496, -1250)
+position = Vector2(-29785, -1036)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin15" parent="coin" unique_id=1472492441 instance=ExtResource("14_betor")]
-position = Vector2(-16125, -1305)
+position = Vector2(-30931, -1772)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin16" parent="coin" unique_id=257714150 instance=ExtResource("14_betor")]
-position = Vector2(-15683, -1311)
+position = Vector2(-31187, -1956)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin17" parent="coin" unique_id=740502892 instance=ExtResource("14_betor")]
-position = Vector2(-15222.999, -1253)
+position = Vector2(-13061, 413)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin18" parent="coin" unique_id=1508336758 instance=ExtResource("14_betor")]
-position = Vector2(-14699, -1054)
+position = Vector2(-30365.998, -1384)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin19" parent="coin" unique_id=187695401 instance=ExtResource("14_betor")]
-position = Vector2(-14288.999, -745)
+position = Vector2(-14297, -770)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin20" parent="coin" unique_id=1285989063 instance=ExtResource("14_betor")]
-position = Vector2(-13993, -459.99988)
+position = Vector2(-13897.999, -347)
 scale = Vector2(11.649558, 11.019499)
 
 [node name="coin21" parent="coin" unique_id=809170250 instance=ExtResource("14_betor")]
-position = Vector2(-13730.999, -144.99988)
+position = Vector2(-13484.999, 69)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin22" parent="coin" unique_id=122561500 instance=ExtResource("14_betor")]
@@ -368,7 +368,7 @@ position = Vector2(-9037, -1680)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin25" parent="coin" unique_id=1296508687 instance=ExtResource("14_betor")]
-position = Vector2(-16921, -1181.9998)
+position = Vector2(-30632.998, -1582)
 scale = Vector2(11.649561, 11.019499)
 
 [node name="coin26" parent="coin" unique_id=1253724914 instance=ExtResource("14_betor")]
@@ -438,5 +438,5 @@ scale = Vector2(7.074509, 6.1956034)
 [node name="UI" parent="." unique_id=302428714 instance=ExtResource("15_vjtdm")]
 
 [node name="fuel" parent="." unique_id=1554195360 instance=ExtResource("16_bgw3c")]
-position = Vector2(-18326, -2202.0002)
+position = Vector2(-13460, -734.00024)
 scale = Vector2(7.074509, 6.1956034)
