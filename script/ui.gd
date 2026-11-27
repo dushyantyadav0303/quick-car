@@ -27,12 +27,6 @@ func _process(delta: float) -> void:
 	else:
 		$AnimationPlayer.stop()
 
-
-
-
-
-
-
 func _update_fuel_gauge() -> void:
 	#$fuelgauge.frame = roundi(fuel / 100.0 * 77)
 	#print(fuel)
@@ -65,14 +59,23 @@ func set_speed(ratio: float) -> void:
 
 func show_airtime(air_time: float):
 	$"air-time".show()
-	$"air-time".text = "AIR TIME\n%.1f s" % air_time
+	$"air-time".text = "AIR TIME\n +" + str(air_time)
 	coins_collected += 10 * air_time
 	%Label.text = str(coins_collected)
 
 func hide_airtime():
 	$"air-time".hide()
 
-
+func flip_reward(text: String):
+	coins_collected += 500
+	%Label.text = str(coins_collected)
+	$flip.text = text
+	$flip.show()
+	await get_tree().create_timer(2.0).timeout
+	$flip.hide()
+	
+	
+	
 func _on_pause_pressed() -> void:
 	print("pause")
 	pass # Replace with function body.

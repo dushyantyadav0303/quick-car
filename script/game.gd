@@ -6,6 +6,8 @@ var max_speed = 50
 var driving = 0
 var fade_tween: Tween
 var air_time = 0.0
+var flip_angle = 0.0
+var on_ground = false 
 
 func stop():
 	speed = 0
@@ -47,7 +49,7 @@ func _ready():
 
 
 func _physics_process(delta):
-	var on_ground = false
+	on_ground = false
 	for wheel in wheels:
 		if wheel.get_colliding_bodies().size() > 0:
 			on_ground = true
@@ -66,7 +68,7 @@ func _physics_process(delta):
 		air_time += delta
 		if air_time >= 0.5:
 			get_tree().call_group("ui", "show_airtime", snappedf(air_time, 0.1))
-			
+			check_flip(delta)
 	driving = 0 
 	if Input.is_action_pressed("ui_right"):
 		driving += 1 
@@ -96,9 +98,31 @@ func _physics_process(delta):
 	get_tree().call_group("ui", "set_speed", ratio)
 	
 	
+func check_flip(delta):
+	if on_ground:
+		flip_angle = 0.0
+		return
+		
+	flip_angle += rad_to_deg(angular_velocity) * delta
+	
+	if flip_angle >= 360:
+		flip_angle -= 360
+		print("front flip")
+		get_tree().call_group("ui", "flip_reward", "Back Flip x1")
+
+	if flip_angle <= -360:
+		flip_angle += 360
+		print("back flip")
+		get_tree().call_group("ui", "flip_reward", "Front Flip x1")
+		
+		
+		
 func reward_air_time():
 	#print(air_time)
 	get_tree().call_group("ui", "show_air_time", air_time)
 	
 	
+	
+	
+
 	
