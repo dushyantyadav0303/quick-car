@@ -1,9 +1,9 @@
+AudioStreamPlayer
+CollisionShape2D
 Label
 Node
 AnimatedSprite2D
 Sprite2D
-AudioStreamPlayer
-CollisionShape2D
 Area2D
 TextureButton
 TextEdit
@@ -12,4 +12,3 @@ Panel
 CanvasLayer
 AnimationPlayer
 TextureRect
-PinJoint2D

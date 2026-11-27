@@ -10,3 +10,4 @@ res://scene/wheel.tscn
 res://scene/ui.tscn
 res://script/ui.gd
 res://scene/game.tscn
+res://scene/character.gd

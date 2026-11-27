@@ -3,16 +3,18 @@
 [ext_resource type="Script" uid="uid://b2a2tu6ei0ccq" path="res://script/game.gd" id="1_33cqm"]
 [ext_resource type="PackedScene" uid="uid://lanqaawvcbg4" path="res://scene/wheel.tscn" id="2_e2o6t"]
 [ext_resource type="Texture2D" uid="uid://jhkh3km43jjv" path="res://Assest/car/sports car.png" id="3_33cqm"]
+[ext_resource type="Script" uid="uid://bf2n6njf60sw0" path="res://scene/character.gd" id="3_qpk70"]
 [ext_resource type="Texture2D" uid="uid://cu1irjgd6ktg" path="res://Assest/car/Left-Profile Loc Portrait.png" id="4_xwcet"]
 [ext_resource type="AudioStream" uid="uid://dpokarvgixeam" path="res://sound/8bit-engine.ogg" id="5_p1ry8"]
 [ext_resource type="AudioStream" uid="uid://dpgjreycfvlrt" path="res://sound/start-up-sound.mp3" id="6_xlg7c"]
+[ext_resource type="AudioStream" uid="uid://dlhlxij0shuts" path="res://sound/bone-crack.mp3" id="8_ll5lq"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xwcet"]
 radius = 60.207973
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g13lv"]
 radius = 50.0
-height = 172.0
+height = 208.0
 
 [node name="player" type="RigidBody2D" unique_id=1544543778 groups=["player"]]
 gravity_scale = -2.235
@@ -41,7 +43,6 @@ position = Vector2(3.9100647e-05, -3.2782555e-06)
 mass = 1.267
 
 [node name="limiter2" type="RigidBody2D" parent="." unique_id=433026696]
-visible = false
 position = Vector2(303, 17)
 mass = 0.1
 
@@ -56,17 +57,14 @@ node_b = NodePath("../..")
 softness = 4.66
 
 [node name="limiter" type="RigidBody2D" parent="." unique_id=550965404]
-visible = false
 position = Vector2(-20, 36)
 mass = 0.1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="limiter" unique_id=52533917]
-visible = false
 position = Vector2(-78, -121)
 shape = SubResource("CircleShape2D_xwcet")
 
 [node name="PinJoint2D" type="PinJoint2D" parent="limiter" unique_id=1031172045]
-visible = false
 position = Vector2(-77, -121)
 node_a = NodePath("..")
 node_b = NodePath("../..")
@@ -74,6 +72,7 @@ node_b = NodePath("../..")
 [node name="Character" type="RigidBody2D" parent="." unique_id=772819215]
 position = Vector2(0, 15)
 mass = 0.161
+script = ExtResource("3_qpk70")
 
 [node name="Sprite2D" type="Sprite2D" parent="Character" unique_id=1393598701]
 z_index = -24
@@ -82,8 +81,7 @@ scale = Vector2(0.15770487, 0.18905097)
 texture = ExtResource("4_xwcet")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Character" unique_id=512404575]
-visible = false
-position = Vector2(48, -88)
+position = Vector2(42, -112)
 shape = SubResource("CapsuleShape2D_g13lv")
 
 [node name="spring effect" type="PinJoint2D" parent="Character" unique_id=415070513]
@@ -114,3 +112,7 @@ parameters/looping = true
 stream = ExtResource("6_xlg7c")
 
 [node name="yepee" type="AudioStreamPlayer" parent="." unique_id=601594386]
+
+[node name="dead" type="AudioStreamPlayer" parent="." unique_id=353569823]
+stream = ExtResource("8_ll5lq")
+volume_db = -2.866
