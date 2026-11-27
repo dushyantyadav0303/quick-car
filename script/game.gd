@@ -37,9 +37,14 @@ func _ready():
 	for wheel in wheels:
 		wheel.contact_monitor = true
 		wheel.max_contacts_reported = 1
+	contact_monitor = true
+	max_contacts_reported = 4
 	add_to_group("game")
 	play()
 	
+
+
+
 
 func _physics_process(delta):
 	var on_ground = false
@@ -47,7 +52,11 @@ func _physics_process(delta):
 		if wheel.get_colliding_bodies().size() > 0:
 			on_ground = true
 			#print("under air JAJAJSAJSJAJ")
-			
+	for body in get_colliding_bodies():
+		if body is StaticBody2D:
+			on_ground = true
+			#print("for body")
+
 	if on_ground:
 		if air_time >= 0.5:
 			reward_air_time()

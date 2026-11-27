@@ -288,7 +288,7 @@ scale = Vector2(112.77717, 202.48306)
 shape = SubResource("RectangleShape2D_g13lv")
 
 [node name="player" parent="." unique_id=1544543778 instance=ExtResource("1_tw77e")]
-position = Vector2(34831, -49)
+position = Vector2(-37824, -2304)
 
 [node name="Camera2D" type="Camera2D" parent="player" unique_id=422865507]
 position = Vector2(110, 36)
