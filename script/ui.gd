@@ -2,6 +2,7 @@ extends CanvasLayer
 
 var coins_collected = 0
 var fuel = 100
+var is_out_of_fuel := false
 
 func _ready() -> void:
 	add_to_group("ui")
@@ -9,19 +10,25 @@ func _ready() -> void:
 	_update_fuel_gauge()
 
 
+
+
 func _process(delta: float) -> void:
 	if fuel > 0:
 		fuel = max(fuel - 5 * delta, 0.0)
 		_update_fuel_gauge()
-	if fuel < 30:
+	if fuel <= 0 and not is_out_of_fuel:
+		is_out_of_fuel = true
+		$AnimationPlayer.stop()
+		out_of_fuel()   
+	elif fuel < 30:
 		if not $AnimationPlayer.is_playing():
 			$AnimationPlayer.play("low fuel ")
+
 	else:
 		$AnimationPlayer.stop()
 
-	if fuel == 0:
-		out_of_fuel()
-				
+
+
 
 
 
@@ -35,7 +42,9 @@ func _update_fuel_gauge() -> void:
 
 func out_of_fuel() -> void:
 	get_tree().call_group("game", "stop")
-	print("out of fuel")
+	#print("out of fuel")
+func recover_fuel() -> void:
+	get_tree().call_group("game", "play")
 	
 	
 func add_coin():
@@ -45,6 +54,9 @@ func add_coin():
 func add_fuel():
 	fuel = min(fuel + 50, 100.0)
 	_update_fuel_gauge()
+	if is_out_of_fuel:
+		is_out_of_fuel = false
+		recover_fuel()
 	
 # ahhh maths!!!
 func set_speed(ratio: float) -> void:

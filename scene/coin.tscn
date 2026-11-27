@@ -155,8 +155,7 @@ modulate = Color(1, 1, 1, 0.9995588)
 position = Vector2(0, -6.0378313)
 sprite_frames = SubResource("SpriteFrames_d0vl4")
 autoplay = "default"
-frame = 8
-frame_progress = 0.2375299
+frame_progress = 0.2693145
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=429901695]
 visible = false

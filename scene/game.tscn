@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://jhkh3km43jjv" path="res://Assest/car/sports car.png" id="3_33cqm"]
 [ext_resource type="Texture2D" uid="uid://cu1irjgd6ktg" path="res://Assest/car/Left-Profile Loc Portrait.png" id="4_xwcet"]
 [ext_resource type="AudioStream" uid="uid://dpokarvgixeam" path="res://sound/8bit-engine.ogg" id="5_p1ry8"]
+[ext_resource type="AudioStream" uid="uid://dpgjreycfvlrt" path="res://sound/start-up-sound.mp3" id="6_xlg7c"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xwcet"]
 radius = 60.207973
@@ -37,8 +38,10 @@ softness = 0.7
 
 [node name="RigidBody2D" parent="wheelholder2" unique_id=1406211637 instance=ExtResource("2_e2o6t")]
 position = Vector2(3.9100647e-05, -3.2782555e-06)
+mass = 1.267
 
 [node name="limiter2" type="RigidBody2D" parent="." unique_id=433026696]
+visible = false
 position = Vector2(303, 17)
 mass = 0.1
 
@@ -53,6 +56,7 @@ node_b = NodePath("../..")
 softness = 4.66
 
 [node name="limiter" type="RigidBody2D" parent="." unique_id=550965404]
+visible = false
 position = Vector2(-20, 36)
 mass = 0.1
 
@@ -103,6 +107,8 @@ polygon = PackedVector2Array(-458, 178, -462, 48, -476, -50, -200, -61, -119, -8
 
 [node name="engineSFX" type="AudioStreamPlayer" parent="." unique_id=1666513614]
 stream = ExtResource("5_p1ry8")
-volume_db = -11.854
-autoplay = true
+volume_db = -7.0
 parameters/looping = true
+
+[node name="engine start" type="AudioStreamPlayer" parent="." unique_id=1488112373]
+stream = ExtResource("6_xlg7c")
