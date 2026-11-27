@@ -112,3 +112,5 @@ parameters/looping = true
 
 [node name="engine start" type="AudioStreamPlayer" parent="." unique_id=1488112373]
 stream = ExtResource("6_xlg7c")
+
+[node name="yepee" type="AudioStreamPlayer" parent="." unique_id=601594386]

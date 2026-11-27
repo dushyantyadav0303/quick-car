@@ -1,8 +1,9 @@
 res://levels/level_1.tscn
+res://scene/launch_comet_trail.tres
+res://fireworks.tscn
+res://fireworks.gd
+res://scene/finish_line.tscn
+res://scene/fireworks.tscn
+res://script/fireworks.gd
 res://script/game.gd
 res://scene/wheel.tscn
-res://scene/game.tscn
-res://scene/ui.tscn
-res://scene/coin.tscn
-res://script/ui.gd
-res://scene/fuel.tscn

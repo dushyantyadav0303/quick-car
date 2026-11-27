@@ -25,6 +25,10 @@ func play():
 	print("start finished")
 	$engineSFX.play()
 	
+func won():
+	#stop()
+	get_tree().call_group("fireworks", "play")
+	
 	
 	
 	
